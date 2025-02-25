@@ -81,9 +81,9 @@ INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols
 INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr10.tfm
 INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
-INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 OUTPUT Conversational Agent Debating Capability.pdf
 INPUT C:\Users\a\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti12.tfm
 INPUT Conversational Agent Debating Capability.aux
 INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\a\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
