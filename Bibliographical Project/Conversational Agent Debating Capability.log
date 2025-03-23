@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  23 MAR 2025 15:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  23 MAR 2025 16:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -281,13 +281,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 
 
-Underfull \hbox (badness 5578) in paragraph at lines 49--50
+Underfull \hbox (badness 5578) in paragraph at lines 46--47
 []\OT1/ptm/b/n/10 Multi-Attribute Ar-gu-men-ta-tion Frame-work: \OT1/ptm/m/n/10 The
- []
-
-
-Underfull \hbox (badness 3657) in paragraph at lines 61--62
-[]\OT1/ptm/b/n/10 Retrieval-Based Agents: \OT1/ptm/m/n/10 Fetch ar-gu-ments from a
  []
 
 
@@ -296,14 +291,19 @@ Underfull \hbox (badness 3657) in paragraph at lines 61--62
 
 
 ]
-Underfull \hbox (badness 2318) in paragraph at lines 63--64
+Underfull \hbox (badness 3657) in paragraph at lines 56--57
+[]\OT1/ptm/b/n/10 Retrieval-Based Agents: \OT1/ptm/m/n/10 Fetch ar-gu-ments from a
+ []
+
+
+Underfull \hbox (badness 2318) in paragraph at lines 58--59
 []\OT1/ptm/b/n/10 Hierarchical Per-sua-sion Agents: \OT1/ptm/m/n/10 Adapt ar-gu-ments
  []
 
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 90--91
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
 \OT1/ptm/m/n/8 https://smythos.com/ai-agents/ai-tutorials/symbolic-ai-applications/.
  []
 
@@ -327,15 +327,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4161 strings out of 473530
- 66535 string characters out of 5716730
- 473357 words of memory out of 5000000
- 27358 multiletter control sequences out of 15000+600000
+ 4162 strings out of 473530
+ 66540 string characters out of 5716730
+ 473361 words of memory out of 5000000
+ 27359 multiletter control sequences out of 15000+600000
  592146 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,932b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,1040b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 79698 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 80635 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
