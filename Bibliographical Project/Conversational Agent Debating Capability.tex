@@ -1,73 +1,94 @@
-\documentclass[12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage{amsmath}
-\usepackage{amsfonts}
+\documentclass[conference]{IEEEtran}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithmic}
 \usepackage{graphicx}
-\usepackage{geometry}
-\usepackage{titlesec}
-\geometry{a4paper}
+\usepackage{textcomp}
+\usepackage{xcolor}
 
-\titleformat{\section}[block]{\normalfont\small\bfseries}{\thesection}{1em}{}[\titlerule]
-
-\title{AI Debate Systems: Enhancing Structured Argumentation and Interactivity}
-\author{Mohamad Faraj Makkawi, Hassan Khan\\
-    Supervisors: Mihai Andries, Christophe Lohr\\
-    Institution: IMT Atlantique, France}
-\date{\today}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 
 \begin{document}
+
+\title{AI Debate Systems: Enhancing Structured Argumentation and Interactivity}
+
+\author{
+\IEEEauthorblockN{Mohamad Faraj Makkawi}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\
+France \\
+mohamad.makkawi@imt-atlantique.net}
+\and
+\IEEEauthorblockN{Hassan Khan}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\
+France \\
+hassan.khan@imt-atlantique.net}
+\and
+\IEEEauthorblockN{Mihai Andries}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\
+France \\
+mihai.andries@imt-atlantique.net}
+\and
+\IEEEauthorblockN{Christophe Lohr}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\
+France \\
+christophe.lohr@imt-atlantique.net}
+}
 
 \maketitle
 
 \begin{abstract}
-    A debate is a formal discussion where the participants form and support arguments, a good debate must include logical structure, reason from fact, counterarguments, persuasion, and interactivity so AI debate systems must follow structured argumentation models to present clear and logical discussions. Falsified reasoning is also used to reinforce arguments based on more recent evidence, and rebuttal games are interactive. Nature Language Processing based reasoning also enhances the understanding and flexibility of AI arguments. Such approaches enhance the ability of AI systems to engage in relevant and interpretable dialogue.
+A debate is a formal discussion where the participants form and support arguments. A good debate must include logical structure, reasoning from facts, counterarguments, persuasion, and interactivity. Therefore, AI debate systems must follow structured argumentation models to present clear and logical discussions. Falsified reasoning is also used to reinforce arguments based on more recent evidence, and rebuttal games are interactive. Nature Language Processing based reasoning also enhances the understanding and flexibility of AI arguments. Such approaches enhance the ability of AI systems to engage in relevant and interpretable dialogue.
 
-    Different types of conversational agents that are capable of debating include rule-based agents using pre-defined templates, retrieval-based agents that look up arguments from a database, and hybrid agents that combine structured reasoning with retrieval-based methods. Advanced systems, such as hierarchical persuasion agents, learn how to tailor arguments based on feedback from users, while explainable debate agents construct their reasoning via formal argumentation structures. AI-based debate systems are particularly precious in domains such as healthcare, law, and business, where transparency of reasons is of significant importance. Advanced work must merge hierarchical argumentation, retrieval-based learning, and interactive user engagement to create more persuasive and transparent AI debaters.
+Different types of conversational agents that are capable of debating include rule-based agents using pre-defined templates, retrieval-based agents that look up arguments from a database, and hybrid agents that combine structured reasoning with retrieval-based methods. Advanced systems, such as hierarchical persuasion agents, learn how to tailor arguments based on feedback from users, while explainable debate agents construct their reasoning via formal argumentation structures. AI-based debate systems are particularly precious in domains such as healthcare, law, and business, where the transparency of reasons is of significant importance. Advanced work must merge hierarchical argumentation, retrieval-based learning, and interactive user engagement to create more persuasive and transparent AI debaters.
 \end{abstract}
 
-\newpage
+\begin{IEEEkeywords}
+AI, Debate Systems, Argumentation, Conversational Agents, Natural Language Processing
+\end{IEEEkeywords}
 
-\section{Understanding Debate and What Makes a Good Debate:}
-\begin{small}
-    Exploration of what a debate is and the qualities that make a debate effective or well-executed. It is an inquiry into both the nature of debates and the criteria for judging them as good debates.
-\end{small}
+\section{Introduction}
+This paper explores the application of AI in debate systems, focusing on how structured argumentation and interactivity can be enhanced through various techniques. We examine different types of conversational agents capable of debating and discuss their potential applications in various domains.
 
-\section{Conversational Agent Debating Techniques and Applications:}
-\begin{small}
-    Conversational Agent Debate Debate or argumentation systems utilize a variety of approaches to structure, analyze, and reason arguments. Such approaches allow AI to handle complex reasoning, ambiguity, and interactive dialogue. Argumentation schemes and graphs help monitor and structure arguments and counterarguments. There are some techniques like fuzzy cognitive maps and falsifiable reasoning by which AI can be made decision-capable even in incompleteness or ambiguities. The most critical point of an effective AI argumentation system is that it must be capable of convincing and explaining, so its output will be believable and understandable, thus creating more trust and interaction from the users.
-\end{small}
+\section{Understanding Debate and What Makes a Good Debate}
+Exploration of what a debate is and the qualities that make a debate effective or well-executed. It is an inquiry into both the nature of debates and the criteria for judging them as good debates.
 
-\section{Existing Types of Conversational Agents Capable of Debating a Subject:}
-\begin{small}
-    \begin{itemize}
-        \item \text{Rule-Based Agents} $\rightarrow$ Use predefined argument templates.
-        \item \text{Retrieval-Based Agents} $\rightarrow$ Fetch arguments from a database.
-        \item \text{Hybrid Argumentation Agents} $\rightarrow$ Combine retrieval with reasoning.
-        \item \text{Hierarchical Persuasion Agents} $\rightarrow$ Adapt arguments based on user feedback.
-        \item \text{Explainable Debate Agents} $\rightarrow$ Justify their reasoning using argumentation.
-    \end{itemize}
-\end{small}
+\section{Conversational Agent Debating Techniques and Applications}
+Conversational Agent Debate Debate or argumentation systems utilize a variety of approaches to structure, analyze, and reason arguments. Such approaches allow AI to handle complex reasoning, ambiguity, and interactive dialogue. Argumentation schemes and graphs help monitor and structure arguments and counterarguments. There are some techniques like fuzzy cognitive maps and falsifiable reasoning by which AI can be made decision-capable even in incompleteness or ambiguities. The most critical point of an effective AI argumentation system is that it must be capable of convincing and explaining, so its output will be believable and understandable, thus creating more trust and interaction from the users.
 
-\section*{Resources for Information:}
-\begin{small}
-    Google Scholar, ResearchGate, IEEE Xplore, and IMT Library.
-\end{small}
+\section{Existing Types of Conversational Agents Capable of Debating a Subject}
+Several types of conversational agents are capable of participating in debates:
 
-\section*{Technologies:}
-\begin{small}
-    GitHub, LaTeX.
-\end{small}
+\begin{itemize}
+    \item \textbf{Rule-Based Agents:} Use predefined argument templates.
+    \item \textbf{Retrieval-Based Agents:} Fetch arguments from a database.
+    \item \textbf{Hybrid Argumentation Agents:} Combine retrieval with reasoning.
+    \item \textbf{Hierarchical Persuasion Agents:} Adapt arguments based on user feedback.
+    \item \textbf{Explainable Debate Agents:} Justify their reasoning using argumentation.
+\end{itemize}
 
-\newpage
+\section{Resources and Technologies}
 
-\section*{References:}
-\begin{enumerate}
-    \item Rakshit, Geetanjali, Kevin K. Bowden, Lena Reed, Amita Misra, and Marilyn Walker. "Debbie, the debate bot of the future." In \textit{Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems}, pp. 45-52. Springer International Publishing, 2019.
-    \item Tan, Chenhao, Vlad Niculae, Cristian Danescu-Niculescu-Mizil, and Lillian Lee. "Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions." In \textit{Proceedings of the 25th International Conference on World Wide Web}, pp. 613-624, 2016.
-    \item Kulatska, Iryna. "ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot." Master's thesis, University of Twente, 2019.
-    \item Lisa A. Chalagune, Anthony Hunter, "A persuasive chatbot using a crowdsourced argument graph and concerns," \textit{Computational Models of Argument 326} (2020): 9.
-    \item Sakai, Kazuki, Ryuichiro Higashinaka, Yuichiro Yoshikawa, Hiroshi Ishiguro, and Junji Tomita. "Hierarchical argumentation structure for persuasive argumentative dialogue generation." \textit{IEICE TRANSACTIONS on Information and Systems 103}, no. 2 (2020): 424-434.
-    \item Engelmann, Débora, Juliana Damasio, Alison R. Panisson, Viviana Mascardi, and Rafael H. Bordini. "Argumentation as a method for explainable AI: A systematic literature review." In \textit{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}, 2022, pp. 1-6.
-\end{enumerate}
+\subsection{Resources for Information}
+Google Scholar, ResearchGate, IEEE Xplore, and IMT Library.
+
+\subsection{Technologies}
+GitHub, LaTeX.
+
+\section{Conclusion}
+AI debate systems hold significant promise for enhancing structured argumentation and interactivity in various domains. By combining advanced techniques in natural language processing, argumentation theory, and machine learning, it is possible to create AI debaters that are persuasive, transparent, and capable of fostering critical thinking. Further research is needed to explore the full potential of these systems and address the challenges associated with building robust and reliable AI debaters.
+
+\section*{Acknowledgment}
+We would like to thank Mihai Andries and Christophe Lohr for their invaluable supervision and guidance throughout this research.
+
+\begin{thebibliography}{00}
+\bibitem{b1} Rakshit, Geetanjali, Kevin K. Bowden, Lena Reed, Amita Misra, and Marilyn Walker. "Debbie, the debate bot of the future." In \textit{Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems}, pp. 45-52. Springer International Publishing, 2019.
+\bibitem{b2} Tan, Chenhao, Vlad Niculae, Cristian Danescu-Niculescu-Mizil, and Lillian Lee. "Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions." In \textit{Proceedings of the 25th International Conference on World Wide Web}, pp. 613-624, 2016.
+\bibitem{b3} Kulatska, Iryna. "ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot." Master's thesis, University of Twente, 2019.
+\bibitem{b4} Chalaguine, Lisa A., and Anthony Hunter. "A persuasive chatbot using a crowdsourced argument graph and concerns." \textit{Computational Models of Argument} 326 (2020): 9.
+\bibitem{b5} Sakai, Kazuki, Ryuichiro Higashinaka, Yuichiro Yoshikawa, Hiroshi Ishiguro, and Junji Tomita. "Hierarchical argumentation structure for persuasive argumentative dialogue generation." \textit{IEICE TRANSACTIONS on Information and Systems} 103, no. 2 (2020): 424-434.
+\bibitem{b6} Engelmann, Débora, Juliana Damasio, Alison R. Panisson, Viviana Mascardi, and Rafael H. Bordini. "Argumentation as a method for explainable AI: A systematic literature review." In \textit{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}, 2022, pp. 1-6.
+\end{thebibliography}
 
 \end{document}
