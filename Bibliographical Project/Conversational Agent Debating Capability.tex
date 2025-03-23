@@ -16,24 +16,16 @@
 
 \author{
 \IEEEauthorblockN{Mohamad Faraj Makkawi}
-\IEEEauthorblockA{\textit{IMT Atlantique} \\
-France \\
-mohamad.makkawi@imt-atlantique.net}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\ Rennes, France \\ mohamad.makkawi@imt-atlantique.net}
 \and
 \IEEEauthorblockN{Hassan Khan}
-\IEEEauthorblockA{\textit{IMT Atlantique} \\
-France \\
-hassan.khan@imt-atlantique.net}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\ Rennes, France \\ hassan.khan@imt-atlantique.net}
 \and
 \IEEEauthorblockN{Mihai Andries}
-\IEEEauthorblockA{\textit{IMT Atlantique} \\
-France \\
-mihai.andries@imt-atlantique.net}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\ Brest, France \\ mihai.andries@imt-atlantique.net}
 \and
 \IEEEauthorblockN{Christophe Lohr}
-\IEEEauthorblockA{\textit{IMT Atlantique} \\
-France \\
-christophe.lohr@imt-atlantique.net}
+\IEEEauthorblockA{\textit{IMT Atlantique} \\ Brest, France \\ christophe.lohr@imt-atlantique.net}
 }
 
 \maketitle
@@ -52,17 +44,29 @@ AI, Debate Systems, Argumentation, Conversational Agents, Natural Language Proce
 This paper explores the application of AI in debate systems, focusing on how structured argumentation and interactivity can be enhanced through various techniques. We examine different types of conversational agents capable of debating and discuss their potential applications in various domains.
 
 \section{Debate Definition and What Makes a Good Debate}
-A debate is a structured conversation through the presentation of arguments by opposing sides with a view to expressing their positions, and justifications, and enabling the scrutiny of different perspectives [1][6]. It can also be viewed as an argumentative game where the interactions are governed by predefined rules, and players engage in structured moves [6]. A good debate consists of empirical evidence-based arguments that are well-supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality are elements that make the responses effective as a whole [6].
+A debate is a structured conversation through the presentation of arguments by opposing sides with a view to expressing their positions, and justifications, and enabling the scrutiny of different perspectives \cite{b1}\cite{b2}. It can also be viewed as an argumentative game where the interactions are governed by predefined rules, and players engage in structured moves \cite{b6}. A good debate consists of empirical evidence-based arguments that are well-supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality are elements that make the responses effective as a whole \cite{b6}.
 
 \section{Conversational Agent Debating Techniques and Applications}
-Conversational Agent Debate Debate or argumentation systems utilize a variety of approaches to structure, analyze, and reason arguments. Such approaches allow AI to handle complex reasoning, ambiguity, and interactive dialogue. Argumentation schemes and graphs help monitor and structure arguments and counterarguments. There are some techniques like fuzzy cognitive maps and falsifiable reasoning by which AI can be made decision-capable even in incompleteness or ambiguities. The most critical point of an effective AI argumentation system is that it must be capable of convincing and explaining, so its output will be believable and understandable, thus creating more trust and interaction from the users.
+\begin{itemize}
+    \item \textbf{Argument graphs:} Argument graphs are graph representations employed to illustrate arguments and their interrelations. Under this paradigm of thinking, nodes are indicative of independent arguments, whereas the edges linking them are instances of relations among such arguments. Argument graphs enable agents to visualize the composition of arguments and their relations to one another, thereby determining appropriate contexts for the application of specific arguments \cite{b4}\cite{b6}..
+    
+    \item \textbf{ASPIC framework:} ASPIC is a formal framework for constructing and analyzing arguments, with premises reflecting the fact domain over which the argument is being constructed, and inference rules under which conclusions are drawn from premises. Preference rules are then used to prefer some arguments over others, on both logical grounds as well as user-specific priorities \cite{b6}.
+    
+    \item \textbf{Defeasible logic programming:} Defeasible logic programming provides a setting for argumentation in the presence of exceptions and uncertainty. It is suited for the construction and evaluation of arguments in dynamic scenarios, in which conclusions drawn earlier may be superseded by information that comes later. The method seems to begin with general rules which hold by default and then have other more specific rules introduced which act to modify or supplant such defaults as information becomes available, allowing for compact and flexible argumentation \cite{b6}.
+    
+    \item \textbf{Multi-Attribute Argumentation Framework:} The Multi-Attribute Argumentation Framework is concerned with assessment of arguments on various criteria such as cost, environmental impact, and feasibility. Each attribute is given a weight depending on its significance. Arguments are then compared by contrasting their scores on these various attributes, thus giving a formal methodology for decision-making and argument evaluation \cite{b6}.
+    
+    \item \textbf{Reactive Component-Based Argumentation:} Reactive Component-Based Argumentation consists of a system with an argumentation model, a planning subsystem, and a reactive component. The planning subsystem generates a plan that gives evidence in support of persuasive goals. The reactive component, however, implements the plan through the translation of plan operators into dialogue expressions, thereby enabling it to react dynamically to the arguments of the user \cite{b7}.
+    
+    \item \textbf{Hierarchical Argumentation:} A method of organizing arguments in a tiered structured manner, where the main claim or conclusion is supported by a group of sub-arguments or evidence. It is one of the common strategies used to facilitate convincing conversations and makes it simpler for the audience to follow and establish whether the arguments are valid or not  \cite{b5}.
+\end{itemize}
 
 \section{Existing Types of Conversational Agents Capable of Debating a Subject}
 Several types of conversational agents are capable of participating in debates:
 
 \begin{itemize}
     \item \textbf{Rule-Based Agents:} Use predefined argument templates.
-    \item \textbf{Retrieval-Based Agents:} Fetch arguments from a database.
+    \item \textbf{Retrieval-Based Agents:} Fetch arguments from a database \cite{b3}.
     \item \textbf{Hybrid Argumentation Agents:} Combine retrieval with reasoning.
     \item \textbf{Hierarchical Persuasion Agents:} Adapt arguments based on user feedback.
     \item \textbf{Explainable Debate Agents:} Justify their reasoning using argumentation.
@@ -73,11 +77,9 @@ Several types of conversational agents are capable of participating in debates:
 Symbolic methods, commonly referred to as Good Old-Fashioned Artificial Intelligence (GOFAI), emphasize knowledge representation in the form of structured, human-readable symbols employing logical reasoning for problem-solving. These methods rely on formal logic, rule-based systems, and knowledge graphs. The applicability of this approach is due to:
 
 \begin{itemize}
-    \item \textbf{The decision-making processes transparency:} The representation of knowledge achieved through the encoding of formal rules of debate and argumentative structures via logic-based frameworks permits artificial intelligence systems to systematically assess premises and deduce conclusions. GOFAI captures human reasoning and guarantees transparency in decision-making [7].
-    
-    \item \textbf{Explainable reasoning:} A very important feature in situations where an explanation is needed to support an argument and to explain the reasons for a decision. This enhances the user's confidence in the system and makes it user-friendly [8].
-    
-    \item \textbf{Ability to work with abstract concepts and logical relationships:} Abstract notions such as mental health and social interaction can be framed in rational hierarchies and structured relations within symbolic systems. These systems enable the capacity of artificial intelligence to discuss philosophical or ethical issues using predefined logical relations and concepts [7].
+    \item \textbf{The decision-making processes transparency:} The representation of knowledge achieved through the encoding of formal rules of debate and argumentative structures via logic-based frameworks permits artificial intelligence systems to systematically assess premises and deduce conclusions. GOFAI captures human reasoning and guarantees transparency in decision-making \cite{b8}.
+    \item \textbf{Explainable reasoning:} A very important feature in situations where an explanation is needed to support an argument and to explain the reasons for a decision. This enhances the user's confidence in the system and makes it user-friendly \cite{b9}.
+    \item \textbf{Ability to work with abstract concepts and logical relationships:} Abstract notions such as mental health and social interaction can be framed in rational hierarchies and structured relations within symbolic systems. These systems enable the capacity of artificial intelligence to discuss philosophical or ethical issues using predefined logical relations and concepts \cite{b8}.
 \end{itemize}
 
 \section{Resources and Technologies}
@@ -101,8 +103,9 @@ We would like to thank Mihai Andries and Christophe Lohr for their invaluable su
 \bibitem{b4} Chalaguine, Lisa A., and Anthony Hunter. "A persuasive chatbot using a crowdsourced argument graph and concerns." \textit{Computational Models of Argument} 326 (2020): 9.
 \bibitem{b5} Sakai, Kazuki, Ryuichiro Higashinaka, Yuichiro Yoshikawa, Hiroshi Ishiguro, and Junji Tomita. "Hierarchical argumentation structure for persuasive argumentative dialogue generation." \textit{IEICE TRANSACTIONS on Information and Systems} 103, no. 2 (2020): 424-434.
 \bibitem{b6} Engelmann, Débora, Juliana Damasio, Alison R. Panisson, Viviana Mascardi, and Rafael H. Bordini. "Argumentation as a method for explainable AI: A systematic literature review." In \textit{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}, 2022, pp. 1-6.
-\bibitem{b7} Smythos. "Symbolic AI Applications." \textit{Smythos}. [Online]. Available: https://smythos.com/ai-agents/ai-tutorials/symbolic-ai-applications/. [Accessed: Mar. 23, 2025].
-\bibitem{b8} Vassiliades, A., Bassiliades, N., and Patkos, T. "Argumentation and explainable artificial intelligence: A survey," \textit{Knowledge Engineering Review}, vol. 36, e5, 1-35, 2021. doi:10.1017/S0269888921000011. [Online]. Available: https://doi.org/10.1017/S0269888921000011. [Accessed: Mar. 23, 2025].
+\bibitem{b7} Andrews, Pierre, Suresh Manandhar, and Marco De Boni. "Argumentative Human Computer Dialogue for Automated Persuasion." In \textit{Proceedings of the 9th SIGdial Workshop on Discourse and Dialogue}, pp. 138-147, Columbus, Ohio, Jun. 2008. Association for Computational Linguistics. Available: https://aclanthology.org/W08-0123/.
+\bibitem{b8} Smythos. "Symbolic AI Applications." \textit{Smythos}. [Online]. Available: https://smythos.com/ai-agents/ai-tutorials/symbolic-ai-applications/. [Accessed: Mar. 23, 2025].
+\bibitem{b9} Vassiliades, A., Bassiliades, N., and Patkos, T. "Argumentation and explainable artificial intelligence: A survey," \textit{Knowledge Engineering Review}, vol. 36, e5, 1-35, 2021. doi:10.1017/S0269888921000011. [Online]. Available: https://doi.org/10.1017/S0269888921000011. [Accessed: Mar. 23, 2025].
 
 \end{thebibliography}
 \end{document}
