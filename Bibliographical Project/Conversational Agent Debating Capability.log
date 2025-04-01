@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  1 APR 2025 22:34
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  2 APR 2025 00:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -271,17 +271,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 43.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 43.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
  (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-
-
-Underfull \hbox (badness 5578) in paragraph at lines 46--47
+Underfull \hbox (badness 5578) in paragraph at lines 48--49
 []\OT1/ptm/b/n/10 Multi-Attribute Ar-gu-men-ta-tion Frame-work: \OT1/ptm/m/n/10 The
  []
 
@@ -291,12 +290,12 @@ Underfull \hbox (badness 5578) in paragraph at lines 46--47
 
 
 ]
-Underfull \hbox (badness 3657) in paragraph at lines 56--57
+Underfull \hbox (badness 3657) in paragraph at lines 58--59
 []\OT1/ptm/b/n/10 Retrieval-Based Agents: \OT1/ptm/m/n/10 Fetch ar-gu-ments from a
  []
 
 
-Underfull \hbox (badness 2318) in paragraph at lines 58--59
+Underfull \hbox (badness 2318) in paragraph at lines 60--61
 []\OT1/ptm/b/n/10 Hierarchical Per-sua-sion Agents: \OT1/ptm/m/n/10 Adapt ar-gu-ments
  []
 
@@ -324,13 +323,13 @@ L3 programming layer <2025-01-18>
 Here is how much of TeX's memory you used:
  4162 strings out of 473530
  66540 string characters out of 5716730
- 473361 words of memory out of 5000000
+ 475361 words of memory out of 5000000
  27359 multiletter control sequences out of 15000+600000
  592146 words of font info for 94 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,1020b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,8n,65p,932b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 81508 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 82016 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
