@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 22:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 22:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -543,9 +543,6 @@ Overfull \hbox (41.88606pt too wide) in paragraph at lines 87--97
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
 
 
 
@@ -632,20 +629,20 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"Conversational Agent Debating Capability".out' has not changed.
-(rerunfilecheck)             Checksum: 1B8658FA09FEAB7EF829D730F29B2FE5;1862.
+(rerunfilecheck)             Checksum: 10454FD05F4F0A6AF8D8A78851600D0F;1922.
  ) 
 Here is how much of TeX's memory you used:
- 12995 strings out of 473530
- 216863 string characters out of 5716730
- 646756 words of memory out of 5000000
- 35989 multiletter control sequences out of 15000+600000
+ 12997 strings out of 473530
+ 216876 string characters out of 5716730
+ 645782 words of memory out of 5000000
+ 35990 multiletter control sequences out of 15000+600000
  598584 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,970b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,1074b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (3 pages, 167808 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (3 pages, 168743 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 34 named destinations out of 1000 (max. 500000)
+ 196 PDF objects out of 1000 (max. 8388607)
+ 35 named destinations out of 1000 (max. 500000)
  65 words of extra memory for PDF output out of 10000 (max. 10000000)
 
