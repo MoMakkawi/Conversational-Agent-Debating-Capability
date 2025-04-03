@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  2 APR 2025 00:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 12:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -229,42 +229,135 @@ Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1369.
 Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1370.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1371.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1372.
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen176
+\lightrulewidth=\dimen177
+\cmidrulewidth=\dimen178
+\belowrulesep=\dimen179
+\belowbottomsep=\dimen180
+\aboverulesep=\dimen181
+\abovetopsep=\dimen182
+\cmidrulesep=\dimen183
+\cmidrulekern=\dimen184
+\defaultaddspace=\dimen185
+\@cmidla=\count293
+\@cmidlb=\count294
+\@aboverulesep=\dimen186
+\@belowrulesep=\dimen187
+\@thisruleclass=\count295
+\@lastruleclass=\count296
+\@thisrulewidth=\dimen188
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen189
+\ar@mcellbox=\box56
+\extrarowheight=\dimen190
+\NC@list=\toks24
+\extratabsurround=\skip57
+\backup@length=\skip58
+\ar@cellbox=\box57
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen191
+\TX@old@table=\dimen192
+\TX@old@col=\dimen193
+\TX@target=\dimen194
+\TX@delta=\dimen195
+\TX@cols=\count297
+\TX@ftn=\toks25
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/ltablex\ltablex.sty
+Package: ltablex 2014/08/13 v1.1 Modified tabularx
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2024-10-27 v4.22 Multi-page Table package (DPC)
+\LTleft=\skip59
+\LTright=\skip60
+\LTpre=\skip61
+\LTpost=\skip62
+\LTchunksize=\count298
+\LTcapwidth=\dimen196
+\LT@head=\box58
+\LT@firsthead=\box59
+\LT@foot=\box60
+\LT@lastfoot=\box61
+\LT@gbox=\box62
+\LT@cols=\count299
+\LT@rows=\count300
+\c@LT@tables=\count301
+\c@LT@chunks=\count302
+\LT@p@ftn=\toks26
+)) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count303
+\float@exts=\toks27
+\float@box=\box63
+\@float@everytoks=\toks28
+\@floatcapt=\box64
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple.sty
+Package: csvsimple 2024/09/27 v2.7.0 LaTeX CSV file processing
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/csvsimple\csvsimple-legacy.sty
+Package: csvsimple-legacy 2024/09/27 version 2.7.0 LaTeX2e CSV file processing
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.sty (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-common.tex
+\pgfutil@everybye=\toks29
+\pgfutil@tempdima=\dimen197
+\pgfutil@tempdimb=\dimen198
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil-latex.def
+\pgfutil@abb=\box65
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.code.tex (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+)) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.sty (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks30
+\pgfkeys@temptoks=\toks31
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeyslibraryfiltered.code.tex
+\pgfkeys@tmptoks=\toks32
+))) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count304
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/tools\shellesc.sty
+Package: shellesc 2023/07/08 v1.0d unified shell escape interface for LaTeX
+Package shellesc Info: Restricted shell escape enabled on input line 77.
+)
+\csv@file=\read2
+\c@csvinputline=\count305
+\c@csvrow=\count306
+\c@csvcol=\count307
+\csv@out=\write3
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count293
-\l__pdf_internal_box=\box56
+\l__color_backend_stack_int=\count308
+\l__pdf_internal_box=\box66
 ) (Conversational Agent Debating Capability.aux)
 \openout1 = `"Conversational Agent Debating Capability.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
-LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 -- Lines per column: 56 (exact).
 (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count294
-\scratchdimen=\dimen176
-\scratchbox=\box57
-\nofMPsegments=\count295
-\nofMParguments=\count296
-\everyMPshowfont=\toks24
-\MPscratchCnt=\count297
-\MPscratchDim=\dimen177
-\MPnumerator=\count298
-\makeMPintoPDFobject=\count299
-\everyMPtoPDFconversion=\toks25
+\scratchcounter=\count309
+\scratchdimen=\dimen199
+\scratchbox=\box67
+\nofMPsegments=\count310
+\nofMParguments=\count311
+\everyMPshowfont=\toks33
+\MPscratchCnt=\count312
+\MPscratchDim=\dimen256
+\MPnumerator=\count313
+\makeMPintoPDFobject=\count314
+\everyMPtoPDFconversion=\toks34
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
@@ -272,17 +365,63 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 51.
 (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 51.
  (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Underfull \hbox (badness 5578) in paragraph at lines 48--49
+Underfull \hbox (badness 5578) in paragraph at lines 53--54
 []\OT1/ptm/b/n/10 Multi-Attribute Ar-gu-men-ta-tion Frame-work: \OT1/ptm/m/n/10 The
  []
+
+
+Overfull \hbox (6.2244pt too wide) in paragraph at lines 63--63
+ []|\OT1/ptm/b/n/8 Weaknesses| 
+ []
+
+
+Overfull \hbox (3.89085pt too wide) in paragraph at lines 67--67
+ []|\OT1/ptm/m/n/8 Personalized 
+ []
+
+
+Overfull \hbox (0.939pt too wide) in paragraph at lines 68--68
+ []|\OT1/ptm/m/n/8 Transparent 
+ []
+
+
+Overfull \hbox (9.56923pt too wide) in paragraph at lines 61--70
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (3.74155pt too wide) in paragraph at lines 78--78
+ []|\OT1/ptm/b/n/8 Weighting| 
+ []
+
+
+Overfull \hbox (5.85628pt too wide) in paragraph at lines 82--82
+ []|\OT1/ptm/m/n/8 Adaptability| 
+ []
+
+
+Overfull \hbox (13.16844pt too wide) in paragraph at lines 82--82
+ []|\OT1/ptm/m/n/8 Counterargument 
+ []
+
+
+Overfull \hbox (12.41467pt too wide) in paragraph at lines 76--85
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
@@ -290,16 +429,6 @@ Underfull \hbox (badness 5578) in paragraph at lines 48--49
 
 
 ]
-Underfull \hbox (badness 3657) in paragraph at lines 58--59
-[]\OT1/ptm/b/n/10 Retrieval-Based Agents: \OT1/ptm/m/n/10 Fetch ar-gu-ments from a
- []
-
-
-Underfull \hbox (badness 2318) in paragraph at lines 60--61
-[]\OT1/ptm/b/n/10 Hierarchical Per-sua-sion Agents: \OT1/ptm/m/n/10 Adapt ar-gu-ments
- []
-
-
 
 
 ** Conference Paper **
@@ -321,15 +450,15 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4162 strings out of 473530
- 66540 string characters out of 5716730
- 475361 words of memory out of 5000000
- 27359 multiletter control sequences out of 15000+600000
- 592146 words of font info for 94 fonts, out of 8000000 for 9000
+ 6185 strings out of 473530
+ 109844 string characters out of 5716730
+ 532363 words of memory out of 5000000
+ 29312 multiletter control sequences out of 15000+600000
+ 598077 words of font info for 109 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,8n,65p,932b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 67i,10n,66p,932b,266s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 82016 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (2 pages, 84263 bytes).
 PDF statistics:
  35 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
