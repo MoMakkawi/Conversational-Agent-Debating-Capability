@@ -12,6 +12,7 @@
 \usepackage{ltablex}
 \usepackage{float}
 \usepackage{csvsimple}
+\usepackage{hyperref}
 
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
@@ -41,16 +42,25 @@ AI, Debate Systems, Argumentation, Conversational Agents, Argumentation Service 
 \section{Introduction}
 Various conversational agents are developed to argue, and various methodologies are applied in the development of arguments. Rule-based agents use pre-defined templates, and they provide structured responses, which are inflexible. Retrieval-based agents learn arguments from a database, and this enables them to respond rapidly, although the responses may be irrelevant contextually \cite{b3}. Hybrid argumentation agents use retrieval with reasoning mechanisms to produce more flexible arguments, while hierarchical persuasion agents refine their arguments through the utilization of user feedback, thereby improving interaction \cite{b5}. Explainable debate agents give explicit justification to their arguments, transparency enhanced and trust.
 
-This work investigates the argumentation capabilities of dialogue agents with a special emphasis on how symbolic artificial intelligence techniques, in the form of ASPIC and defeasible logic programming, improve argumentation by using systematic reasoning and knowledge representation. We highlight the strengths of symbolic techniques in terms of explainability and abstraction manipulation \cite{b7}, along with discussing problems such as managing uncertainty, very large datasets, and real-time adaptation limits \cite{b9}. By going through current architectures, we try to evaluate the potential and limitations of symbolic AI in creating successful debate-capable conversational agents.
+This work investigates the argumentation capabilities of dialogue agents with a special emphasis on how symbolic artificial intelligence techniques, in the form of ASPIC and defeasible logic programming, improve argumentation by using systematic reasoning and knowledge representation. We highlight the strengths of symbolic techniques in terms of explainability and abstraction manipulation \cite{b11}, along with discussing problems such as managing uncertainty, very large datasets, and real-time adaptation limits \cite{b11}. By going through current architectures, we try to evaluate the potential and limitations of symbolic AI in creating successful debate-capable conversational agents.
 
 \section{Debate Definition and What Makes a Good Debate}
-A debate is a structured conversation through the presentation of arguments by opposing sides with a view to expressing their positions, and justifications, and enabling the scrutiny of different perspectives \cite{b1}\cite{b2}. It can also be viewed as an argumentative game where the interactions are governed by predefined rules, and players engage in structured moves \cite{b6}. A good debate consists of empirical evidence-based arguments that are well-supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality are elements that make the responses effective as a whole \cite{b6}.
+A debate is a structured conversation through the presentation of arguments by opposing sides with a view to expressing their positions, and justifications, and enabling the scrutiny of different perspectives \cite{b1}\cite{b2}. It can also be viewed as an argumentative game where the interactions are governed by predefined rules, and players engage in structured moves \cite{b6}. A good debate consists of empirical evidence-based arguments that are well-supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality are elements that make the responses effective as a whole \cite{b6}. \\
+To evaluate debate performance effectively, the judges are to evaluate organized argumentation based on clear organization, logical consistency of premises, and refutation order of counter-arguments. The quality of evidence is most important and must be based on well-researched facts, credible sources, and resolution specificity. Teams must demonstrate prioritization of argumentation and insight into the most significant "point of clash".\cite{b8}. Recognize fabricated evidence, ad hominem, or rule violations. Qualitative estimation of argument strength takes precedence over quantitative counting. \cite{b7}\cite{b8}.
 
 \section{Conversational Agent Debating Techniques and Applications}
 \begin{itemize}
-    \item \textbf{Argument graphs:} Argument graphs are graph representations employed to illustrate arguments and their interrelations. Under this paradigm of thinking, nodes are indicative of independent arguments, whereas the edges linking them are instances of relations among such arguments. Argument graphs enable agents to visualize the composition of arguments and their relations to one another, thereby determining appropriate contexts for the application of specific arguments \cite{b4}\cite{b6}.
-    \item \textbf{ASPIC framework:} ASPIC is a formal framework for constructing and analyzing arguments, with premises reflecting the fact domain over which the argument is being constructed, and inference rules under which conclusions are drawn from premises. Preference rules are then used to prefer some arguments over others, on both logical grounds as well as user-specific priorities \cite{b6}.
-    \item \textbf{Multi-Attribute Argumentation Framework:} The Multi-Attribute Argumentation Framework is concerned with assessment of arguments on various criteria such as cost, environmental impact, and feasibility. Each attribute is given a weight depending on its significance. Arguments are then compared by contrasting their scores on these various attributes, thus giving a formal methodology for decision-making and argument evaluation \cite{b6}.
+    \item \textbf{Argument graphs:} A visual representations of interrelations between arguments, which can be formally represented as a directed graph G=(V,E), where V is the vertices (arguments) and E is the directed edges representing support and attack relations. The visualization through such graphical representations can make complicated interrelations between arguments easy to understand, making them understandable by audience members in a more readable way. Though argument graphs efficiently promote understanding and involvement, their persuasiveness relies on the quality and strength of the arguments. Therefore, they get a positive assessment for their ability to provide clarity in persuasive conversations \cite{b4}\cite{b6}.
+
+    \item \textbf{ASPIC framework:} A formal format for argument presentation, with the arguments mathematically definable as \( A = (C,R,\lhd ,\text{attack}) \), whereby \( C \) represents claim, \( R \) reasons, and \( \lhd \) are relations of attack and support. With the formal setup, there comes unambiguous demonstration logically, together with enabling structures for constructing trees of argument and thus fortifying the argument for persuasion based on the reason of the audience. Evaluative perspective shows that ASPIC's strong logical structure is well-suited to enable sound arguments, and thus it is the best option for promoting persuasion. \cite{b6}
+
+    \item \textbf{Multi-Attribute Argumentation Framework:} 
+    Ranks arguments on multiple criteria, such criteria being measurable through the formula 
+    \[
+    S(A) = \sum_{i=1}^{n} w_i \cdot v_i
+    \]
+    where \( w_i \) are weights for each criterion and \( v_i \) are the respective scores for each criterion. The multi-aspect analysis process allows for sensitive rankings that are capable of communicating directly with the values of the audience, optimally maximizing the persuasive power of the framework. In general, this approach is graded as superb for its ability to be able to handle heterogeneous preferences, enhancing arguments across various stakeholder groups. \cite{b6}.
+    
 \end{itemize}
 
 \section{Comparative Analysis of Conversational Agents in Debate Applications}
@@ -58,45 +68,45 @@ A debate is a structured conversation through the presentation of arguments by o
     \centering
     \caption{Comparison of Debating Agent}
     \label{tab:agents}
-    \begin{tabular}{|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.2cm}|}
+    \begin{tabular}{|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.3cm}|}
     \hline
     \textbf{Agent Type}   & \textbf{Approach}                    & \textbf{Use Cases}                   & \textbf{Strengths}         & \textbf{Weaknesses}        \\ \hline
-    Rule-Based           & Predefined templates                  & Compliance systems \cite{b10}        & Predictable outcomes       & Rigid structure            \\ \hline
+    Rule-Based           & Predefined templates                  & Compliance systems \cite{b12}        & Predictable outcomes       & Rigid structure            \\ \hline
     Retrieval-Based      & DB queries + RAG                      & Customer support chatbots \cite{b1}  & Dynamic data handling      & Retrieval dependency       \\ \hline
     Hybrid               & Rule-retrieval integration            & Legal argumentation \cite{b3}        & Context-aware reasoning    & Complex setup              \\ \hline
     Hierarchical         & Feedback-driven adaptation \cite{b5}  & Policy negotiation                   & Personalized arguments     & Feedback latency           \\ \hline
-    Explainable          & Justification chains \cite{b11}       & Diagnostics, Legal systems           & Transparent explanations   & Depth limitations          \\ \hline
+    Explainable          & Justification chains \cite{b13}       & Diagnostics, Legal systems           & Transparent explanations   & Depth limitations          \\ \hline
     \end{tabular}
 \end{table}
 
 \begin{table}[h]
     \centering
-    \caption{Evaluation Criteria for Debating Agents}
-    \label{tab:evaluation_agents}
-    \begin{tabular}{|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.8cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.1cm}|}
+    \caption{Comparison of AI Models}
+    \label{tab:ai_models}
+    \begin{tabular}{|>{\centering\arraybackslash}p{1.1cm}|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{1.5cm}|}
     \hline
-    \textbf{Criterion} & \textbf{Sub-Criteria} & \textbf{Metric} & \textbf{Data Source} & \textbf{Weighting} \\ \hline
-    Argument Quality & Validity, Relevance, Diversity, Originality & Logical consistency score, Novelty index & Debate transcripts, Expert review & 30\% \\ \hline
-    Structural Integrity & Timing adherence, Signposting clarity, Rhetorical effectiveness & Flow analysis, Audience comprehension tests & Speech recordings, Peer feedback & 20\% \\ \hline
-    Team Cohesion & Role fulfillment, Consistency, Progression tracking & Inter-agent coordination score, Role-specific KPIs & Interaction logs, Team self-reviews & 20\% \\ \hline
-    Adaptability & Rebuttal effectiveness, Strategy adjustment speed & Counterargument success rate, Response latency & Debate flowcharts, Timestamp analysis & 15\% \\ \hline
-    Ethical Alignment & Bias detection, Fairness adherence & Ethical violation frequency, Diversity index & Content analysis, Third-party audits & 15\% \\ \hline
+    \textbf{Evaluation criteria}  & \textbf{Rule-Based}                 & \textbf{Retrieval}                            & \textbf{Hybrid}\cite{b19}             & \textbf{Hierarchical} \cite{b18}                & \textbf{Explainable} \cite{b14} \cite{b17} \\ \hline
+    Accuracy                      & High in narrow domains \cite{b14}   & Moderate (depends on data quality) \cite{b15} & Balanced across tasks                 & Varies by hierarchy level                 & Moderate (prioritizes transparency over optimization) \\ \hline
+    Response Time \cite{b16}      & Fast (deterministic)                & Moderate (retrieval latency)                  & Slow (multi-layer processing)         & Slowest (sequential decision-making)      & Moderate (additional explainability overhead) \\ \hline
+    Cost Efficiency               & Low (static rules)                  & Moderate (retrieval infrastructure)           & High (compute-intensive)              & High (maintenance complexity)             & Moderate (explanation generation costs) \\ \hline
+    Scalability                   & Poor (rule complexity)              & High (modular data updates)                   & Moderate (resource-intensive)         & Best (layered abstraction)                & Limited (interpretability constraints) \\ \hline
+    Stability                     & High (deterministic)                & Moderate (data drift sensitivity)             & High (adaptive tuning)                & High (isolated failures)                  & Moderate (explanation consistency) \\ \hline
+    User Satisfaction             & Low (inflexible)                    & Moderate (context-aware)                      & High (balanced UX)                    & Moderate (learning curve)                 & Highest (trust through clarity) \\ \hline
     \end{tabular}
 \end{table}
 
-
 \section{The Power of Symbolic Methods in Conversational Agents}
-Symbolic methods emphasize knowledge representation in the form of structured, human-readable symbols employing logical reasoning for problem-solving. These methods rely on formal logic, rule-based systems, and knowledge graphs. The applicability of this approach is due to explainable reasoning ability; A very important feature in situations where an explanation is needed to support an argument and to explain the reasons for a decision. This enhances the user's confidence in the system and makes it user-friendly \cite{b7}.
+Symbolic methods emphasize knowledge representation in the form of structured, human-readable symbols employing logical reasoning for problem-solving. These methods rely on formal logic, rule-based systems, and knowledge graphs. The applicability of this approach is due to explainable reasoning ability; A very important feature in situations where an explanation is needed to support an argument and to explain the reasons for a decision. This enhances the user's confidence in the system and makes it user-friendly \cite{b11}.
 
 \section{Limitations of Conversational Debating Agents}
 \begin{itemize}
-    \item \textbf{Uncertainty and Big Data Management:} AI Debate Systems may need to handle vast amounts of data from multiple sources, often containing noisy or inconsistent information \cite{b9}.
+    \item \textbf{Uncertainty and Big Data Management:} AI Debate Systems may need to handle vast amounts of data from multiple sources, often containing noisy or inconsistent information \cite{b11}.
     
-    \item \textbf{Knowledge Acquisition Bottleneck:} Symbolic AI programs typically require hand-coded rules and knowledge, leading to high human effort and cost in translating real-world problems into system inputs \cite{b9}.
+    \item \textbf{Knowledge Acquisition Bottleneck:} Symbolic AI programs typically require hand-coded rules and knowledge, leading to high human effort and cost in translating real-world problems into system inputs \cite{b11}.
     
-    \item \textbf{Real-time Dynamic Assessments:} AI debate systems face challenges in reacting dynamically to emerging arguments or rapidly changing contexts in real-time scenarios \cite{b9}.
+    \item \textbf{Real-time Dynamic Assessments:} AI debate systems face challenges in reacting dynamically to emerging arguments or rapidly changing contexts in real-time scenarios \cite{b11}.
     
-    \item \textbf{Logical Inconsistencies:} Internal logical inconsistencies present a major hurdle in designing secure AI systems, such as debate frameworks. This issue highlights the need to integrate constrained logical verification or consistency inference tools into the AI architecture \cite{b8}.
+    \item \textbf{Logical Inconsistencies:} Internal logical inconsistencies present a major hurdle in designing secure AI systems, such as debate frameworks. This issue highlights the need to integrate constrained logical verification or consistency inference tools into the AI architecture \cite{b10}.
 \end{itemize}
 
 \section{Conclusion}
@@ -105,16 +115,25 @@ Symbolic methods emphasize knowledge representation in the form of structured, h
 We would like to thank John Puentes and Mihai Andries, Christophe Lohr for their invaluable supervision and guidance throughout this research.
 
 \begin{thebibliography}{00}
-\bibitem{b1} Rakshit, Geetanjali, Kevin K. Bowden, Lena Reed, Amita Misra, and Marilyn Walker. "Debbie, the debate bot of the future." In \textit{Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems}, pp. 45-52. Springer International Publishing, 2019.
-\bibitem{b2} Tan, Chenhao, Vlad Niculae, Cristian Danescu-Niculescu-Mizil, and Lillian Lee. "Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions." In \textit{Proceedings of the 25th International Conference on World Wide Web}, pp. 613-624, 2016.
-\bibitem{b3} Kulatska, Iryna. "ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot." Master's thesis, University of Twente, 2019.
-\bibitem{b4} Chalaguine, Lisa A., and Anthony Hunter. "A persuasive chatbot using a crowdsourced argument graph and concerns." \textit{Computational Models of Argument} 326 (2020): 9.
-\bibitem{b5} Sakai, Kazuki, Ryuichiro Higashinaka, Yuichiro Yoshikawa, Hiroshi Ishiguro, and Junji Tomita. "Hierarchical argumentation structure for persuasive argumentative dialogue generation." \textit{IEICE TRANSACTIONS on Information and Systems} 103, no. 2 (2020): 424-434.
-\bibitem{b6} Engelmann, Débora, Juliana Damasio, Alison R. Panisson, Viviana Mascardi, and Rafael H. Bordini. "Argumentation as a method for explainable AI: A systematic literature review." In \textit{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}, 2022, pp. 1-6.
-\bibitem{b7} Vassiliades, A., Bassiliades, N., and Patkos, T. "Argumentation and explainable artificial intelligence: A survey," \textit{Knowledge Engineering Review}, vol. 36, e5, 1-35, 2021. doi:10.1017/S0269888921000011. [Online]. Available: https://doi.org/10.1017/S0269888921000011. [Accessed: Mar. 23, 2025].
-\bibitem{b8} Ilkou, E., and Koutraki, M. "Symbolic vs Sub-symbolic AI Methods: Friends or Enemies?" In \textit{Proceedings of the CIKM 2020 Workshops}, CEUR Workshop Proceedings, ISSN 1613-0073, October 19-20, 2020, Galway, Ireland. [Online]. Available: http://ceur-ws.org. [Accessed: Mar. 23, 2025].
-\bibitem{b9} Kasif, Simon. "A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge." \textit{Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University}.
-\bibitem{b10} Monte-Alto, H. H. L. C., Possebom, A. T., Morveli-Espinoza, M. M. M., and Tacla, C. A. "A rule-based argumentation framework for distributed contextual reasoning in dynamic environments." \textit{DYNA}, vol. 88, no. 217, pp. 120-130, 2021. doi:10.15446/dyna.v88n217.90858.
-\bibitem{b11} Ali, B., Pawar, S., Palshikar, G. K., \& Singh, R. (2022). Constructing a dataset of support and attack relations in legal arguments in court judgements using linguistic rules. In \textit{Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)}, pp. 491-500. Marseille, 20-25 June 2022. European Language Resources Association (ELRA). Retrieved from: https://www.elra.info
-\end{thebibliography}
+    \bibitem{b1} Rakshit, Geetanjali, Kevin K. Bowden, Lena Reed, Amita Misra, and Marilyn Walker. "Debbie, the debate bot of the future." In \textit{Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems}, pp. 45-52. Springer International Publishing, 2019.
+    \bibitem{b2} Tan, Chenhao, Vlad Niculae, Cristian Danescu-Niculescu-Mizil, and Lillian Lee. "Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions." In \textit{Proceedings of the 25th International Conference on World Wide Web}, pp. 613-624, 2016.
+    \bibitem{b3} Kulatska, Iryna. "ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot." Master's thesis, University of Twente, 2019.
+    \bibitem{b4} Chalaguine, Lisa A., and Anthony Hunter. "A persuasive chatbot using a crowdsourced argument graph and concerns." \textit{Computational Models of Argument} 326 (2020): 9.
+    \bibitem{b5} Sakai, Kazuki, Ryuichiro Higashinaka, Yuichiro Yoshikawa, Hiroshi Ishiguro, and Junji Tomita. "Hierarchical argumentation structure for persuasive argumentative dialogue generation." \textit{IEICE TRANSACTIONS on Information and Systems} 103, no. 2 (2020): 424-434.
+    \bibitem{b6} Engelmann, Débora, Juliana Damasio, Alison R. Panisson, Viviana Mascardi, and Rafael H. Bordini. "Argumentation as a method for explainable AI: A systematic literature review." In \textit{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}, 2022, pp. 1-6.
+    \bibitem{b7} Debating for Everyone. "How to Judge a Debate." Available: \url{https://www.debatingforeveryone.com/resources/how-debating-works/how-to-judge-a-debate}. [Accessed: Apr. 3, 2025].
+    \bibitem{b8} Shuster, Kate, and Meany, John. "Judging Debates: The Middle School Public Debate Program Judge Certification Manual." Available: \url{https://esu.fcny.org/esu/programs/middle_school_debate/educators/lesson_plans_teaching_materials/MSPDP_judging_manual:en-us.pdf}. [Accessed: Apr. 3, 2025].
+    \bibitem{b9} Vassiliades, A., Bassiliades, N., and Patkos, T. "Argumentation and explainable artificial intelligence: A survey," \textit{Knowledge Engineering Review}, vol. 36, e5, 1-35, 2021. doi:10.1017/S0269888921000011. [Online]. Available: \url{https://doi.org/10.1017/S0269888921000011}. [Accessed: Mar. 23, 2025].
+    \bibitem{b10} Ilkou, E., and Koutraki, M. "Symbolic vs Sub-symbolic AI Methods: Friends or Enemies?" In \textit{Proceedings of the CIKM 2020 Workshops}, CEUR Workshop Proceedings, ISSN 1613-0073, October 19-20, 2020, Galway, Ireland. [Online]. Available: \url{http://ceur-ws.org}. [Accessed: Mar. 23, 2025].
+    \bibitem{b11} Kasif, Simon. "A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge." \textit{Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University}.
+    \bibitem{b12} Monte-Alto, H. H. L. C., Possebom, A. T., Morveli-Espinoza, M. M. M., and Tacla, C. A. "A rule-based argumentation framework for distributed contextual reasoning in dynamic environments." \textit{DYNA}, vol. 88, no. 217, pp. 120-130, 2021. doi:10.15446/dyna.v88n217.90858.
+    \bibitem{b13} Ali, B., Pawar, S., Palshikar, G. K., \& Singh, R. (2022). Constructing a dataset of support and attack relations in legal arguments in court judgements using linguistic rules. In \textit{Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)}, pp. 491-500. Marseille, 20-25 June 2022. European Language Resources Association (ELRA). Retrieved from: \url{https://www.elra.info}.
+    \bibitem{b14} IBM. "AI Agent Evaluation." Available: \url{https://www.ibm.com/think/topics/ai-agent-evaluation}. [Accessed: Apr. 3, 2025].
+    \bibitem{b15} Smythos. "AI Agent Performance Measurement." Available: \url{https://smythos.com/ai-agents/agent-architectures/ai-agent-performance-measurement/}. [Accessed: Apr. 3, 2025].
+    \bibitem{b16} Galileo. "AI Agent Metrics." Available: \url{https://www.galileo.ai/blog/ai-agent-metrics}. [Accessed: Apr. 3, 2025].
+    \bibitem{b17} SuperAnnotate. "AI Agent Evaluation." Available: \url{https://www.superannotate.com/blog/ai-agent-evaluation}. [Accessed: Apr. 3, 2025].
+    \bibitem{b18} Galileo. "Evaluating AI Agent Performance: Benchmarks for Real-World Tasks." Available: \url{https://www.galileo.ai/blog/evaluating-ai-agent-performance-benchmarks-real-world-tasks}. [Accessed: Apr. 3, 2025].
+    \bibitem{b19} Aisera. "AI Agent Evaluation." Available: \url{https://aisera.com/blog/ai-agent-evaluation/}. [Accessed: Apr. 3, 2025].
+    \end{thebibliography}
+    
 \end{document}
