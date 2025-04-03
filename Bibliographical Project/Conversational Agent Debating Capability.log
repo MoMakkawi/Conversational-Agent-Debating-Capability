@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 21:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -493,52 +493,52 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 ]
-Overfull \hbox (3.37895pt too wide) in paragraph at lines 73--73
+Overfull \hbox (3.37895pt too wide) in paragraph at lines 74--74
  []|\OT1/ptm/b/n/8 Weaknesses| 
  []
 
 
-Overfull \hbox (5.39224pt too wide) in paragraph at lines 77--77
+Overfull \hbox (5.39224pt too wide) in paragraph at lines 78--78
  []|\OT1/ptm/m/n/8 Hierarchical| 
  []
 
 
-Overfull \hbox (3.89085pt too wide) in paragraph at lines 77--77
+Overfull \hbox (3.89085pt too wide) in paragraph at lines 78--78
  []|\OT1/ptm/m/n/8 Personalized 
  []
 
 
-Overfull \hbox (4.0724pt too wide) in paragraph at lines 78--78
+Overfull \hbox (4.0724pt too wide) in paragraph at lines 79--79
  []|\OT1/ptm/m/n/8 Explainable| 
  []
 
 
-Overfull \hbox (0.939pt too wide) in paragraph at lines 78--78
+Overfull \hbox (0.939pt too wide) in paragraph at lines 79--79
  []|\OT1/ptm/m/n/8 Transparent 
  []
 
 
-Overfull \hbox (6.72421pt too wide) in paragraph at lines 71--80
+Overfull \hbox (6.72421pt too wide) in paragraph at lines 72--81
  [][] 
  []
 
 
-Overfull \hbox (5.96547pt too wide) in paragraph at lines 88--88
+Overfull \hbox (5.96547pt too wide) in paragraph at lines 89--89
  []|\OT1/ptm/b/n/8 Evaluation 
  []
 
 
-Overfull \hbox (3.1258pt too wide) in paragraph at lines 88--88
+Overfull \hbox (3.1258pt too wide) in paragraph at lines 89--89
  []|\OT1/ptm/b/n/8 Hierarchical 
  []
 
 
-Overfull \hbox (2.92523pt too wide) in paragraph at lines 92--92
+Overfull \hbox (2.92523pt too wide) in paragraph at lines 93--93
  []|\OT1/ptm/m/n/8 Scalability| 
  []
 
 
-Overfull \hbox (41.88606pt too wide) in paragraph at lines 86--96
+Overfull \hbox (41.88606pt too wide) in paragraph at lines 87--97
  [][] 
  []
 
@@ -550,62 +550,62 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [2]
-Underfull \hbox (badness 3895) in paragraph at lines 124--125
+Underfull \hbox (badness 3895) in paragraph at lines 125--126
 []\OT1/ptm/m/n/8 Debating for Ev-ery-one. "How to Judge a De-bate." Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 10000) in paragraph at lines 125--126
 []$\OT1/ptm/m/n/8 https : / / www . debatingforeveryone . com / resources / how-[]debating-[]works /
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 125--126
+Underfull \hbox (badness 1521) in paragraph at lines 126--127
 []\OT1/ptm/m/n/8 Shuster, Kate, and Meany, John. "Judg-ing De-bates: The Mid-dle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 []$\OT1/ptm/m/n/8 https : / / esu . fcny . org / esu / programs / middle[]school[]debate / educators /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+Underfull \hbox (badness 10000) in paragraph at lines 126--127
 \OT1/ptm/m/n/8 lesson[]plans[]teaching[]materials / MSPDP[]judging[]manual : en-[]us . pdf$[].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 []\OT1/ptm/m/n/8 Smythos. "AI Agent Per-for-mance Mea-sure-ment." Avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 132--133
+Underfull \hbox (badness 10000) in paragraph at lines 133--134
 \OT1/ptm/m/n/8 able: []$https : / / smythos . com / ai-[]agents / agent-[]architectures /
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 134--135
+Underfull \hbox (badness 7326) in paragraph at lines 135--136
 []\OT1/ptm/m/n/8 SuperAnnotate. "AI Agent Eval-u-a-tion." Avail-able: []$https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 []\OT1/ptm/m/n/8 Galileo. "Eval-u-at-ing AI Agent Per-for-mance: Bench-marks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 \OT1/ptm/m/n/8 for Real-World Tasks." Avail-able: []$https : / / www . galileo . ai / blog /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
 \OT1/ptm/m/n/8 evaluating-[]ai-[]agent-[]performance-[]benchmarks-[]real-[]world-[]tasks$[].
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 136--137
+Underfull \hbox (badness 2662) in paragraph at lines 137--138
 []\OT1/ptm/m/n/8 Aisera. "AI Agent Eval-u-a-tion." Avail-able: []$https : / / aisera . com / blog /
  []
 
@@ -632,18 +632,18 @@ LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
 Package rerunfilecheck Info: File `"Conversational Agent Debating Capability".out' has not changed.
-(rerunfilecheck)             Checksum: 083B39EE0B66B18B7157D3CC3B4AD881;1945.
+(rerunfilecheck)             Checksum: 1B8658FA09FEAB7EF829D730F29B2FE5;1862.
  ) 
 Here is how much of TeX's memory you used:
  12995 strings out of 473530
  216863 string characters out of 5716730
- 646668 words of memory out of 5000000
+ 646756 words of memory out of 5000000
  35989 multiletter control sequences out of 15000+600000
  598584 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,10n,79p,970b,582s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,11n,79p,970b,581s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (3 pages, 167567 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (3 pages, 167808 bytes).
 PDF statistics:
  192 PDF objects out of 1000 (max. 8388607)
  34 named destinations out of 1000 (max. 500000)
