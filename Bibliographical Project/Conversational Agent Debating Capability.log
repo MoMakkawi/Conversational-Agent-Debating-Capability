@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  3 APR 2025 23:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  26 APR 2025 22:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -105,11 +105,7 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/it' in size <24> not available
 \@IEEEtranrubishbin=\box53
 )
 ** ATTENTION: Overriding command lockouts (line 2).
-(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/cite\cite.sty
-LaTeX Info: Redefining \cite on input line 302.
-LaTeX Info: Redefining \nocite on input line 332.
-Package: cite 2015/02/27  v 5.5
-) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2024/11/05 v2.17t AMS math features
 \@mathmargin=\skip52
 
@@ -276,6 +272,7 @@ File: puenc.def 2024-11-05 v7.01l Hyperref: PDF Unicode definition (HO)
 Now handling font encoding PU ...
 ... no UTF-8 mapping file for font encoding PU
 )
+Package hyperref Info: Option `colorlinks' set `true' on input line 4040.
 Package hyperref Info: Hyper figures OFF on input line 4157.
 Package hyperref Info: Link nesting OFF on input line 4162.
 Package hyperref Info: Hyper index ON on input line 4165.
@@ -302,7 +299,7 @@ Package hyperref Info: Hyper figures OFF on input line 6042.
 Package hyperref Info: Link nesting OFF on input line 6047.
 Package hyperref Info: Hyper index ON on input line 6050.
 Package hyperref Info: backreferencing OFF on input line 6057.
-Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring ON on input line 6060.
 Package hyperref Info: Link coloring with OCG OFF on input line 6067.
 Package hyperref Info: PDF/A mode OFF on input line 6072.
  (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
@@ -330,164 +327,845 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
 \Hy@SectionHShift=\skip57
-) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+Package: logreq 2010/08/04 v1.0 xml request logger
+\lrq@indent=\count304
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+))
+\c@tabx@nest=\count305
+\c@listtotal=\count306
+\c@listcount=\count307
+\c@liststart=\count308
+\c@liststop=\count309
+\c@citecount=\count310
+\c@citetotal=\count311
+\c@multicitecount=\count312
+\c@multicitetotal=\count313
+\c@instcount=\count314
+\c@maxnames=\count315
+\c@minnames=\count316
+\c@maxitems=\count317
+\c@minitems=\count318
+\c@citecounter=\count319
+\c@maxcitecounter=\count320
+\c@savedcitecounter=\count321
+\c@uniquelist=\count322
+\c@uniquename=\count323
+\c@refsection=\count324
+\c@refsegment=\count325
+\c@maxextratitle=\count326
+\c@maxextratitleyear=\count327
+\c@maxextraname=\count328
+\c@maxextradate=\count329
+\c@maxextraalpha=\count330
+\c@abbrvpenalty=\count331
+\c@highnamepenalty=\count332
+\c@lownamepenalty=\count333
+\c@maxparens=\count334
+\c@parenlevel=\count335
+\blx@tempcnta=\count336
+\blx@tempcntb=\count337
+\blx@tempcntc=\count338
+\c@blx@maxsection=\count339
+\blx@maxsegment@0=\count340
+\blx@notetype=\count341
+\blx@parenlevel@text=\count342
+\blx@parenlevel@foot=\count343
+\blx@sectionciteorder@0=\count344
+\blx@sectionciteorderinternal@0=\count345
+\blx@entrysetcounter=\count346
+\blx@biblioinstance=\count347
+\labelnumberwidth=\skip58
+\labelalphawidth=\skip59
+\biblabelsep=\skip60
+\bibitemsep=\skip61
+\bibnamesep=\skip62
+\bibinitsep=\skip63
+\bibparsep=\skip64
+\bibhang=\skip65
+\blx@bcfin=\read3
+\blx@bcfout=\write4
+\blx@langwohyphens=\language79
+\c@mincomprange=\count348
+\c@maxcomprange=\count349
+\c@mincompwidth=\count350
+Package biblatex Info: Trying to load biblatex default data model...
+Package biblatex Info: ... file 'blx-dm.def' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
+)
+Package biblatex Info: Trying to load biblatex style data model...
+Package biblatex Info: ... file 'numeric.dbx' not found.
+Package biblatex Info: Trying to load biblatex custom data model...
+Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
+\c@afterword=\count351
+\c@savedafterword=\count352
+\c@annotator=\count353
+\c@savedannotator=\count354
+\c@author=\count355
+\c@savedauthor=\count356
+\c@bookauthor=\count357
+\c@savedbookauthor=\count358
+\c@commentator=\count359
+\c@savedcommentator=\count360
+\c@editor=\count361
+\c@savededitor=\count362
+\c@editora=\count363
+\c@savededitora=\count364
+\c@editorb=\count365
+\c@savededitorb=\count366
+\c@editorc=\count367
+\c@savededitorc=\count368
+\c@foreword=\count369
+\c@savedforeword=\count370
+\c@holder=\count371
+\c@savedholder=\count372
+\c@introduction=\count373
+\c@savedintroduction=\count374
+\c@namea=\count375
+\c@savednamea=\count376
+\c@nameb=\count377
+\c@savednameb=\count378
+\c@namec=\count379
+\c@savednamec=\count380
+\c@translator=\count381
+\c@savedtranslator=\count382
+\c@shortauthor=\count383
+\c@savedshortauthor=\count384
+\c@shorteditor=\count385
+\c@savedshorteditor=\count386
+\c@labelname=\count387
+\c@savedlabelname=\count388
+\c@institution=\count389
+\c@savedinstitution=\count390
+\c@lista=\count391
+\c@savedlista=\count392
+\c@listb=\count393
+\c@savedlistb=\count394
+\c@listc=\count395
+\c@savedlistc=\count396
+\c@listd=\count397
+\c@savedlistd=\count398
+\c@liste=\count399
+\c@savedliste=\count400
+\c@listf=\count401
+\c@savedlistf=\count402
+\c@location=\count403
+\c@savedlocation=\count404
+\c@organization=\count405
+\c@savedorganization=\count406
+\c@origlocation=\count407
+\c@savedoriglocation=\count408
+\c@origpublisher=\count409
+\c@savedorigpublisher=\count410
+\c@publisher=\count411
+\c@savedpublisher=\count412
+\c@language=\count413
+\c@savedlanguage=\count414
+\c@origlanguage=\count415
+\c@savedoriglanguage=\count416
+\c@pageref=\count417
+\c@savedpageref=\count418
+\shorthandwidth=\skip66
+\shortjournalwidth=\skip67
+\shortserieswidth=\skip68
+\shorttitlewidth=\skip69
+\shortauthorwidth=\skip70
+\shorteditorwidth=\skip71
+\locallabelnumberwidth=\skip72
+\locallabelalphawidth=\skip73
+\localshorthandwidth=\skip74
+\localshortjournalwidth=\skip75
+\localshortserieswidth=\skip76
+\localshorttitlewidth=\skip77
+\localshortauthorwidth=\skip78
+\localshorteditorwidth=\skip79
+Package biblatex Info: Trying to load compatibility code...
+Package biblatex Info: ... file 'blx-compat.def' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+)
+Package biblatex Info: Trying to load generic definitions...
+Package biblatex Info: ... file 'biblatex.def' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+\c@textcitecount=\count419
+\c@textcitetotal=\count420
+\c@textcitemaxnames=\count421
+\c@biburlbigbreakpenalty=\count422
+\c@biburlbreakpenalty=\count423
+\c@biburlnumpenalty=\count424
+\c@biburlucpenalty=\count425
+\c@biburllcpenalty=\count426
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count427
+)
+Package biblatex Info: Trying to load natbib compatibility...
+Package biblatex Info: ... file 'blx-natbib.def' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
+File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
+Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
+)
+Package biblatex Info: Trying to load bibliography style 'numeric'...
+Package biblatex Info: ... file 'numeric.bbx' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+Package biblatex Info: Trying to load bibliography style 'standard'...
+Package biblatex Info: ... file 'standard.bbx' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
+\c@bbx:relatedcount=\count428
+\c@bbx:relatedtotal=\count429
+))
+Package biblatex Info: Trying to load citation style 'numeric'...
+Package biblatex Info: ... file 'numeric.cbx' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
+Package biblatex Info: Redefining '\cite'.
+Package biblatex Info: Redefining '\parencite'.
+Package biblatex Info: Redefining '\footcite'.
+Package biblatex Info: Redefining '\footcitetext'.
+Package biblatex Info: Redefining '\smartcite'.
+Package biblatex Info: Redefining '\supercite'.
+Package biblatex Info: Redefining '\textcite'.
+Package biblatex Info: Redefining '\textcites'.
+Package biblatex Info: Redefining '\cites'.
+Package biblatex Info: Redefining '\parencites'.
+Package biblatex Info: Redefining '\smartcites'.
+)
+Package biblatex Info: Trying to load configuration file...
+Package biblatex Info: ... file 'biblatex.cfg' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+File: biblatex.cfg 
+)
+
+Package biblatex Warning: LaTeX not in twoside mode
+(biblatex)                Falling back to 'pagetracker=page'.
+
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Document encoding is UTF8 ....
+(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
 File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count304
+\l__color_backend_stack_int=\count430
 \l__pdf_internal_box=\box59
-) (Conversational Agent Debating Capability.aux)
+))
+Package biblatex Info: ... and expl3
+(biblatex)             2025-01-18 L3 programming layer (loader) 
+(biblatex)             is new enough (at least 2020/04/06),
+(biblatex)             setting 'casechanger=expl3'.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
+Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
+))
+\@quotelevel=\count431
+\@quotereset=\count432
+ (Conversational Agent Debating Capability.aux)
 \openout1 = `"Conversational Agent Debating Capability.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 12.
-LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
+LaTeX Font Info:    ... okay on input line 28.
 
 -- Lines per column: 56 (exact).
-Package hyperref Info: Link coloring OFF on input line 12.
-(Conversational Agent Debating Capability.out) (Conversational Agent Debating Capability.out)
-\@outlinefile=\write4
-\openout4 = `"Conversational Agent Debating Capability.out"'.
-
-
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 45.
-(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+Package color Info: Driver file: pdftex.def on input line 149.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count433
+\scratchdimen=\dimen182
+\scratchbox=\box60
+\nofMPsegments=\count434
+\nofMParguments=\count435
+\everyMPshowfont=\toks29
+\MPscratchCnt=\count436
+\MPscratchDim=\dimen183
+\MPnumerator=\count437
+\makeMPintoPDFobject=\count438
+\everyMPtoPDFconversion=\toks30
+)) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
+Package hyperref Info: Link coloring ON on input line 28.
+ (Conversational Agent Debating Capability.out) (Conversational Agent Debating Capability.out)
+\@outlinefile=\write5
+\openout5 = `"Conversational Agent Debating Capability.out"'.
+
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
 )
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Automatic encoding selection.
+(biblatex)             Assuming data encoding 'utf8'.
+\openout4 = `"Conversational Agent Debating Capability.bcf"'.
+
+Package biblatex Info: Trying to load bibliographic data...
+Package biblatex Info: ... file '"Conversational Agent Debating Capability".bbl' not found.
+
+No file "Conversational Agent Debating Capability".bbl.
+Package biblatex Info: Reference section=0 on input line 28.
+Package biblatex Info: Reference segment=0 on input line 28.
+
+LaTeX Warning: Citation 'b12' on page 1 undefined on input line 53.
+
+
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 55.
+
+
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 57.
+
+
+LaTeX Warning: Citation 'sakai2020hierarchical' on page 1 undefined on input line 59.
+
+
+
+
+LaTeX Warning: Citation 'b13' on page 1 undefined on input line 61.
+
+
+LaTeX Warning: Citation 'b11' on page 1 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'b11' on page 1 undefined on input line 63.
+
+
+LaTeX Warning: Citation 'rakshit2019debbie' on page 1 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'tan2016winning' on page 1 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 1 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 1 undefined on input line 68.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
 
 [1{C:/Users/a/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
-Overfull \hbox (3.37895pt too wide) in paragraph at lines 66--66
+
+LaTeX Warning: Citation 'b8' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'b7' on page 2 undefined on input line 70.
+
+
+LaTeX Warning: Citation 'b8' on page 2 undefined on input line 70.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+LaTeX Warning: Citation 'chalaguine2020persuasive' on page 2 undefined on input line 74.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 74.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+[]\OT1/ptm/b/n/10 Argument graphs: \OT1/ptm/m/n/10 A vi-sual rep-re-sen-ta-tions of
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 in-ter-re-la-tions be-tween ar-gu-ments, which can be
+ []
+
+
+Underfull \hbox (badness 2426) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 for-mally rep-re-sented as a di-rected graph G=(V,E),
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 di-rected edges rep-re-sent-ing sup-port and at-tack
+ []
+
+
+Underfull \hbox (badness 3333) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 re-la-tions. The vi-su-al-iza-tion through such graph-i-cal
+ []
+
+
+Underfull \hbox (badness 3849) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 rep-re-sen-ta-tions can make com-pli-cated in-ter-re-la-tions
+ []
+
+
+Underfull \hbox (badness 4660) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 way. Though ar-gu-ment graphs ef-fi-ciently pro-mote
+ []
+
+
+Underfull \hbox (badness 2556) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 un-der-stand-ing and in-volve-ment, their per-sua-sive-ness
+ []
+
+
+Underfull \hbox (badness 1527) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 There-fore, they get a pos-i-tive as-sess-ment for their
+ []
+
+
+Overfull \hbox (24.73499pt too wide) in paragraph at lines 74--75
+\OT1/ptm/m/n/10 [[]][[]]. 
+ []
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 76.
+
+
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 83.
+
+
+Overfull \hbox (3.37895pt too wide) in paragraph at lines 95--95
  []|\OT1/ptm/b/n/8 Weaknesses| 
  []
 
 
-Overfull \hbox (5.39224pt too wide) in paragraph at lines 70--70
+LaTeX Warning: Citation 'b12' on page 2 undefined on input line 96.
+
+
+LaTeX Warning: Citation 'rakshit2019debbie' on page 2 undefined on input line 97.
+
+
+Overfull \hbox (22.84274pt too wide) in paragraph at lines 97--97
+ \OT1/ptm/m/n/8 [[]]| 
+ []
+
+
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 2 undefined on input line 98.
+
+
+Overfull \hbox (35.73083pt too wide) in paragraph at lines 98--98
+ \OT1/ptm/m/n/8 [[]]| 
+ []
+
+
+Overfull \hbox (5.39224pt too wide) in paragraph at lines 99--99
  []|\OT1/ptm/m/n/8 Hierarchical| 
  []
 
 
-Overfull \hbox (3.89085pt too wide) in paragraph at lines 70--70
+LaTeX Warning: Citation 'sakai2020hierarchical' on page 2 undefined on input line 99.
+
+
+Overfull \hbox (37.61612pt too wide) in paragraph at lines 99--99
+ \OT1/ptm/m/n/8 [[]]| 
+ []
+
+
+Overfull \hbox (3.89085pt too wide) in paragraph at lines 99--99
  []|\OT1/ptm/m/n/8 Personalized 
  []
 
 
-Overfull \hbox (4.0724pt too wide) in paragraph at lines 71--71
+Overfull \hbox (4.0724pt too wide) in paragraph at lines 100--100
  []|\OT1/ptm/m/n/8 Explainable| 
  []
 
 
-Overfull \hbox (0.939pt too wide) in paragraph at lines 71--71
+LaTeX Warning: Citation 'b13' on page 2 undefined on input line 100.
+
+
+Overfull \hbox (0.939pt too wide) in paragraph at lines 100--100
  []|\OT1/ptm/m/n/8 Transparent 
  []
 
 
-Overfull \hbox (6.72421pt too wide) in paragraph at lines 64--73
+Overfull \hbox (6.72421pt too wide) in paragraph at lines 93--102
  [][] 
  []
-
-
-Overfull \hbox (5.96547pt too wide) in paragraph at lines 81--81
- []|\OT1/ptm/b/n/8 Evaluation 
- []
-
-
-Overfull \hbox (3.1258pt too wide) in paragraph at lines 81--81
- []|\OT1/ptm/b/n/8 Hierarchical 
- []
-
-
-Overfull \hbox (2.92523pt too wide) in paragraph at lines 85--85
- []|\OT1/ptm/m/n/8 Scalability| 
- []
-
-
-Overfull \hbox (41.88606pt too wide) in paragraph at lines 79--89
- [][] 
- []
-
-
 
 
 
 [2]
-Underfull \hbox (badness 3895) in paragraph at lines 117--118
+Overfull \hbox (8.81093pt too wide) in paragraph at lines 110--110
+ []|\OT1/ptm/b/n/8 Evaluation 
+ []
+
+
+LaTeX Warning: Citation 'b19' on page 3 undefined on input line 110.
+
+
+Overfull \hbox (14.21886pt too wide) in paragraph at lines 110--110
+ []|\OT1/ptm/b/n/8 Hybrid\OT1/ptm/m/n/8 [[]]| 
+ []
+
+
+LaTeX Warning: Citation 'b18' on page 3 undefined on input line 110.
+
+
+Overfull \hbox (8.81625pt too wide) in paragraph at lines 110--110
+ []|\OT1/ptm/b/n/8 Hierarchical 
+ []
+
+
+LaTeX Warning: Citation 'b14' on page 3 undefined on input line 110.
+
+
+LaTeX Warning: Citation 'b17' on page 3 undefined on input line 110.
+
+
+Overfull \hbox (3.91486pt too wide) in paragraph at lines 110--110
+ []|\OT1/ptm/b/n/8 Explainable 
+ []
+
+
+Overfull \hbox (2.0751pt too wide) in paragraph at lines 111--111
+ []|\OT1/ptm/m/n/8 Accuracy| 
+ []
+
+
+LaTeX Warning: Citation 'b14' on page 3 undefined on input line 111.
+
+
+LaTeX Warning: Citation 'b15' on page 3 undefined on input line 111.
+
+
+Overfull \hbox (1.31494pt too wide) in paragraph at lines 111--111
+ []|\OT1/ptm/m/n/8 Balanced 
+ []
+
+
+LaTeX Warning: Citation 'b16' on page 3 undefined on input line 112.
+
+
+Overfull \hbox (2.21095pt too wide) in paragraph at lines 112--112
+ []|\OT1/ptm/m/n/8 Response 
+ []
+
+
+Overfull \hbox (4.42696pt too wide) in paragraph at lines 113--113
+ \OT1/ptm/m/n/8 (compute- 
+ []
+
+
+Overfull \hbox (2.77892pt too wide) in paragraph at lines 113--113
+ \OT1/ptm/m/n/8 intensive)| 
+ []
+
+
+Overfull \hbox (5.77069pt too wide) in paragraph at lines 114--114
+ []|\OT1/ptm/m/n/8 Scalability| 
+ []
+
+
+Overfull \hbox (2.20294pt too wide) in paragraph at lines 114--114
+ []|\OT1/ptm/m/n/8 Moderate 
+ []
+
+
+Overfull \hbox (3.97093pt too wide) in paragraph at lines 114--114
+ \OT1/ptm/m/n/8 (resource- 
+ []
+
+
+Overfull \hbox (2.77892pt too wide) in paragraph at lines 114--114
+ \OT1/ptm/m/n/8 intensive)| 
+ []
+
+
+Overfull \hbox (10.58827pt too wide) in paragraph at lines 108--118
+ [][] 
+ []
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 121.
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+
+
+
+LaTeX Warning: Citation 'b20' on page 3 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 123.
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 127.
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 129.
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 131.
+
+
+LaTeX Warning: Citation 'b10' on page 3 undefined on input line 133.
+
+
+LaTeX Warning: Citation 'rakshit2019debbie' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'b12' on page 3 undefined on input line 137.
+
+
+LaTeX Warning: Citation 'chalaguine2020persuasive' on page 3 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 3 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 3 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'b7' on page 3 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'b8' on page 3 undefined on input line 138.
+
+
+LaTeX Warning: Citation 'b15' on page 3 undefined on input line 139.
+
+
+LaTeX Warning: Citation 'b11' on page 3 undefined on input line 140.
+
+
+LaTeX Warning: Citation 'b10' on page 3 undefined on input line 140.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+[]\OT1/ptm/m/n/10 The de-vel-op-ment of con-ver-sa-tional agents ca-pa-ble
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 ar-eas of AI re-search, in-volv-ing not only lan-guage
+ []
+
+
+Underfull \hbox (badness 2368) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 logic and prin-ci-ples of per-sua-sion [[]].
+ []
+
+
+Underfull \hbox (badness 1509) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 the rel-a-tive ad-van-tages and dis-ad-van-tages of rule-based,
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 retrieval-based, hy-brid, hi-er-ar-chi-cal, and ex-plain-able
+ []
+
+
+Underfull \hbox (badness 5939) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 agents (Ta-ble I). Hy-brid and retrieval-based sys-tems,
+ []
+
+
+Underfull \hbox (badness 4569) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 al-though of-fer-ing flex-i-bil-ity and ac-cess to large data
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 sources [[]], it is chal-leng-ing to
+ []
+
+
+Underfull \hbox (badness 4168) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 Graphs of-fer good vi-su-al-iza-tion al-ter-na-tives, en-hanc-ing
+ []
+
+
+Underfull \hbox (badness 3168) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 users' com-pre-hen-si-bil-ity of com-plex ar-gu-ment re-la-tions
+ []
+
+
+Overfull \hbox (4.6377pt too wide) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 [[]][[]].
+ []
+
+
+Underfull \hbox (badness 2073) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 AS-PIC en-ables the for-mal def-i-ni-tion of log-i-cally valid
+ []
+
+
+Underfull \hbox (badness 2521) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 ar-gu-ments nec-es-sary to build con-vinc-ing and ver-i-fi-able
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 chains of ar-gu-ments [[]].
+ []
+
+
+Underfull \hbox (badness 5908) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 Fur-ther-more, Multi-Attribute Ar-gu-men-ta-tion Frame-works
+ []
+
+
+Underfull \hbox (badness 2253) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 rea-son-ing [[]][[]]. The com-par-i-son anal-y-sis (Ta-ble II)
+ []
+
+
+Underfull \hbox (badness 3872) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 structure-based meth-ods (e.g., rule-based or aug-mented
+ []
+
+
+Underfull \hbox (badness 1852) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 of po-ten-tially noisy data is a ma-jor is-sue. Knowl-edge
+ []
+
+
+Underfull \hbox (badness 1490) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 time-consuming. Ad-di-tion-ally, real-time de-bate's dy-namic
+ []
+
+
+Underfull \hbox (badness 1584) in paragraph at lines 137--141
+\OT1/ptm/m/n/10 na-ture de-mands agents with the ca-pac-ity to judge and
+ []
+
+
+
+[3]
+
+LaTeX Warning: Citation 'rakshit2019debbie' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'tan2016winning' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'b8' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'chalaguine2020persuasive' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 143.
+
+
+LaTeX Warning: Citation 'b11' on page 4 undefined on input line 144.
+
+
+LaTeX Warning: Citation 'b10' on page 4 undefined on input line 144.
+
+
+LaTeX Warning: Citation 'b11' on page 4 undefined on input line 144.
+
+
+Underfull \vbox (badness 5741) has occurred while \output is active []
+
+
+
+
+LaTeX Warning: Empty bibliography on input line 151.
+
+
+Underfull \hbox (badness 3895) in paragraph at lines 160--161
 []\OT1/ptm/m/n/8 Debating for Ev-ery-one. "How to Judge a De-bate." Avail-able:
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 117--118
-[]$\OT1/ptm/m/n/8 https : / / www . debatingforeveryone . com / resources / how-[]debating-[]works /
+Underfull \hbox (badness 10000) in paragraph at lines 160--161
+[][]$\OT1/ptm/m/n/8 https : / / www . debatingforeveryone . com / resources / how-[]debating-[]works /
  []
 
 
-Underfull \hbox (badness 1521) in paragraph at lines 118--119
+Underfull \hbox (badness 1521) in paragraph at lines 161--162
 []\OT1/ptm/m/n/8 Shuster, Kate, and Meany, John. "Judg-ing De-bates: The Mid-dle
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-[]$\OT1/ptm/m/n/8 https : / / esu . fcny . org / esu / programs / middle[]school[]debate / educators /
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+[][]$\OT1/ptm/m/n/8 https : / / esu . fcny . org / esu / programs / middle[]school[]debate / educators /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 118--119
-\OT1/ptm/m/n/8 lesson[]plans[]teaching[]materials / MSPDP[]judging[]manual : en-[]us . pdf$[].
+Underfull \hbox (badness 10000) in paragraph at lines 161--162
+\OT1/ptm/m/n/8 lesson[]plans[]teaching[]materials / MSPDP[]judging[]manual : en-[]us . pdf$[][].
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
+
+[4]
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
 []\OT1/ptm/m/n/8 Smythos. "AI Agent Per-for-mance Mea-sure-ment." Avail-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 125--126
-\OT1/ptm/m/n/8 able: []$https : / / smythos . com / ai-[]agents / agent-[]architectures /
+Underfull \hbox (badness 10000) in paragraph at lines 168--169
+\OT1/ptm/m/n/8 able: [][]$https : / / smythos . com / ai-[]agents / agent-[]architectures /
  []
 
 
-Underfull \hbox (badness 7326) in paragraph at lines 127--128
-[]\OT1/ptm/m/n/8 SuperAnnotate. "AI Agent Eval-u-a-tion." Avail-able: []$https : / / www .
+Underfull \hbox (badness 7326) in paragraph at lines 170--171
+[]\OT1/ptm/m/n/8 SuperAnnotate. "AI Agent Eval-u-a-tion." Avail-able: [][]$https : / / www .
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
 []\OT1/ptm/m/n/8 Galileo. "Eval-u-at-ing AI Agent Per-for-mance: Bench-marks
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\OT1/ptm/m/n/8 for Real-World Tasks." Avail-able: []$https : / / www . galileo . ai / blog /
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+\OT1/ptm/m/n/8 for Real-World Tasks." Avail-able: [][]$https : / / www . galileo . ai / blog /
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 128--129
-\OT1/ptm/m/n/8 evaluating-[]ai-[]agent-[]performance-[]benchmarks-[]real-[]world-[]tasks$[].
+Underfull \hbox (badness 10000) in paragraph at lines 171--172
+\OT1/ptm/m/n/8 evaluating-[]ai-[]agent-[]performance-[]benchmarks-[]real-[]world-[]tasks$[][].
  []
 
 
-Underfull \hbox (badness 2662) in paragraph at lines 129--130
-[]\OT1/ptm/m/n/8 Aisera. "AI Agent Eval-u-a-tion." Avail-able: []$https : / / aisera . com / blog /
+Underfull \hbox (badness 2662) in paragraph at lines 172--173
+[]\OT1/ptm/m/n/8 Aisera. "AI Agent Eval-u-a-tion." Avail-able: [][]$https : / / aisera . com / blog /
  []
 
 
@@ -505,28 +1183,40 @@ Before submitting the final camera ready copy, remember to:
 
 
 
-[3
+[5
 
 ] (Conversational Agent Debating Capability.aux)
  ***********
 LaTeX2e <2024-11-01> patch level 2
 L3 programming layer <2025-01-18>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `"Conversational Agent Debating Capability".out' has not changed.
-(rerunfilecheck)             Checksum: 10454FD05F4F0A6AF8D8A78851600D0F;1922.
+(rerunfilecheck)             Checksum: AD08C3987D2655B8CC349F9A0E2DE8FE;2015.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "Conversational Agent Debating Capability"
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '"Conversational Agent Debating Capability".run.xml'.
+\openout1 = `"Conversational Agent Debating Capability.run.xml"'.
+
  ) 
 Here is how much of TeX's memory you used:
- 11249 strings out of 473530
- 190138 string characters out of 5716730
- 609533 words of memory out of 5000000
- 34305 multiletter control sequences out of 15000+600000
+ 18978 strings out of 473530
+ 344148 string characters out of 5716730
+ 1190993 words of memory out of 5000000
+ 41964 multiletter control sequences out of 15000+600000
  598584 words of font info for 110 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,11n,79p,1074b,580s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (3 pages, 168874 bytes).
+ 75i,12n,81p,2289b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
+Output written on "Conversational Agent Debating Capability.pdf" (5 pages, 165403 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 35 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 172 PDF objects out of 1000 (max. 8388607)
+ 38 named destinations out of 1000 (max. 500000)
+ 73 words of extra memory for PDF output out of 10000 (max. 10000000)
 
