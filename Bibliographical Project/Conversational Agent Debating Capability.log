@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  26 APR 2025 23:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  26 APR 2025 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -641,12 +641,12 @@ LaTeX Warning: Citation 'montealto2021rulebased' on page 1 undefined on input li
 LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 55.
 
 
+
+
 LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 57.
 
 
 LaTeX Warning: Citation 'sakai2020hierarchical' on page 1 undefined on input line 59.
-
-
 
 
 LaTeX Warning: Citation 'ali2022supportattack' on page 1 undefined on input line 61.
@@ -658,26 +658,23 @@ LaTeX Warning: Citation 'kasif2024trilogy' on page 1 undefined on input line 63.
 LaTeX Warning: Citation 'kasif2024trilogy' on page 1 undefined on input line 63.
 
 
-LaTeX Warning: Citation 'rakshit2019debbie' on page 1 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'tan2016winning' on page 1 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 1 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 1 undefined on input line 68.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 
 [1{C:/Users/a/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
 
 
 ]
+
+LaTeX Warning: Citation 'rakshit2019debbie' on page 2 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'tan2016winning' on page 2 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 68.
+
+
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 68.
+
 
 LaTeX Warning: Citation 'shuster2025judging' on page 2 undefined on input line 70.
 
@@ -752,20 +749,22 @@ Overfull \hbox (24.73499pt too wide) in paragraph at lines 74--75
  []
 
 
+
+
 LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 76.
-
-
 
 
 LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 83.
 
 
+
+[2]
 Overfull \hbox (3.37895pt too wide) in paragraph at lines 95--95
  []|\OT1/ptm/b/n/8 Weaknesses| 
  []
 
 
-LaTeX Warning: Citation 'montealto2021rulebased' on page 2 undefined on input line 96.
+LaTeX Warning: Citation 'montealto2021rulebased' on page 3 undefined on input line 96.
 
 
 Overfull \hbox (43.35468pt too wide) in paragraph at lines 96--96
@@ -773,7 +772,7 @@ Overfull \hbox (43.35468pt too wide) in paragraph at lines 96--96
  []
 
 
-LaTeX Warning: Citation 'rakshit2019debbie' on page 2 undefined on input line 97.
+LaTeX Warning: Citation 'rakshit2019debbie' on page 3 undefined on input line 97.
 
 
 Overfull \hbox (22.84274pt too wide) in paragraph at lines 97--97
@@ -781,7 +780,7 @@ Overfull \hbox (22.84274pt too wide) in paragraph at lines 97--97
  []
 
 
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 2 undefined on input line 98.
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 3 undefined on input line 98.
 
 
 Overfull \hbox (35.73083pt too wide) in paragraph at lines 98--98
@@ -794,7 +793,7 @@ Overfull \hbox (5.39224pt too wide) in paragraph at lines 99--99
  []
 
 
-LaTeX Warning: Citation 'sakai2020hierarchical' on page 2 undefined on input line 99.
+LaTeX Warning: Citation 'sakai2020hierarchical' on page 3 undefined on input line 99.
 
 
 Overfull \hbox (37.61612pt too wide) in paragraph at lines 99--99
@@ -812,7 +811,7 @@ Overfull \hbox (4.0724pt too wide) in paragraph at lines 100--100
  []
 
 
-LaTeX Warning: Citation 'ali2022supportattack' on page 2 undefined on input line 100.
+LaTeX Warning: Citation 'ali2022supportattack' on page 3 undefined on input line 100.
 
 
 Overfull \hbox (35.09622pt too wide) in paragraph at lines 100--100
@@ -830,8 +829,6 @@ Overfull \hbox (6.72421pt too wide) in paragraph at lines 93--102
  []
 
 
-
-[2]
 Overfull \hbox (8.81093pt too wide) in paragraph at lines 110--110
  []|\OT1/ptm/b/n/8 Evaluation 
  []
@@ -956,15 +953,12 @@ Overfull \hbox (10.58827pt too wide) in paragraph at lines 108--118
 LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 121.
 
 
-Underfull \vbox (badness 3281) has occurred while \output is active []
-
-
-
-
 LaTeX Warning: Citation 'lee2025reasoning' on page 3 undefined on input line 123.
 
 
 LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 123.
+
+
 
 
 LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 128.
@@ -976,40 +970,43 @@ LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 130
 LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 132.
 
 
-LaTeX Warning: Citation 'ilkou2020symbolic' on page 3 undefined on input line 134.
+
+[3]
+
+LaTeX Warning: Citation 'ilkou2020symbolic' on page 4 undefined on input line 134.
 
 
-LaTeX Warning: Citation 'rakshit2019debbie' on page 3 undefined on input line 138.
+LaTeX Warning: Citation 'rakshit2019debbie' on page 4 undefined on input line 138.
 
 
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 3 undefined on input line 138.
+LaTeX Warning: Citation 'kulatska2019arguebot' on page 4 undefined on input line 138.
 
 
-LaTeX Warning: Citation 'montealto2021rulebased' on page 3 undefined on input line 138.
+LaTeX Warning: Citation 'montealto2021rulebased' on page 4 undefined on input line 138.
 
 
-LaTeX Warning: Citation 'chalaguine2020persuasive' on page 3 undefined on input line 139.
+LaTeX Warning: Citation 'chalaguine2020persuasive' on page 4 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 3 undefined on input line 139.
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 3 undefined on input line 139.
+LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'debatingforeveryone2025judge' on page 3 undefined on input line 139.
+LaTeX Warning: Citation 'debatingforeveryone2025judge' on page 4 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'shuster2025judging' on page 3 undefined on input line 139.
+LaTeX Warning: Citation 'shuster2025judging' on page 4 undefined on input line 139.
 
 
-LaTeX Warning: Citation 'smythos2025performance' on page 3 undefined on input line 140.
+LaTeX Warning: Citation 'smythos2025performance' on page 4 undefined on input line 140.
 
 
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 141.
+LaTeX Warning: Citation 'kasif2024trilogy' on page 4 undefined on input line 141.
 
 
-LaTeX Warning: Citation 'ilkou2020symbolic' on page 3 undefined on input line 141.
+LaTeX Warning: Citation 'ilkou2020symbolic' on page 4 undefined on input line 141.
 
 
 Underfull \hbox (badness 1817) in paragraph at lines 138--142
@@ -1102,8 +1099,6 @@ Underfull \hbox (badness 2644) in paragraph at lines 138--142
  []
 
 
-
-[3]
 
 
 LaTeX Warning: Citation 'rakshit2019debbie' on page 4 undefined on input line 144.
@@ -1223,13 +1218,13 @@ Package logreq Info: Writing requests to '"Conversational Agent Debating Capabil
 Here is how much of TeX's memory you used:
  18929 strings out of 473530
  343758 string characters out of 5716730
- 1190933 words of memory out of 5000000
+ 1185933 words of memory out of 5000000
  41938 multiletter control sequences out of 15000+600000
  596941 words of font info for 108 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,12n,81p,2289b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (4 pages, 142999 bytes).
+Output written on "Conversational Agent Debating Capability.pdf" (4 pages, 144362 bytes).
 PDF statistics:
  118 PDF objects out of 1000 (max. 8388607)
  16 named destinations out of 1000 (max. 500000)
