@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  26 APR 2025 23:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.2.22)  6 MAY 2025 10:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -218,13 +218,33 @@ Package shellesc Info: Restricted shell escape enabled on input line 77.
 \c@csvrow=\count291
 \c@csvcol=\count292
 \csv@out=\write3
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+\f@nch@headwidth=\skip57
+\f@nch@offset@elh=\skip58
+\f@nch@offset@erh=\skip59
+\f@nch@offset@olh=\skip60
+\f@nch@offset@orh=\skip61
+\f@nch@offset@elf=\skip62
+\f@nch@offset@erf=\skip63
+\f@nch@offset@olf=\skip64
+\f@nch@offset@orf=\skip65
+\f@nch@height=\skip66
+\f@nch@footalignment=\skip67
+\f@nch@widthL=\skip68
+\f@nch@widthC=\skip69
+\f@nch@widthR=\skip70
+\@temptokenb=\toks28
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/threeparttable\threeparttable.sty
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box59
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
 Package: hyperref 2024-11-05 v7.01l Hypertext links for LaTeX
  (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks28
+\KV@toks@=\toks29
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
 ) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty
@@ -326,907 +346,679 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 )
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 285.
 )
-\Hy@SectionHShift=\skip57
-) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
-Package: biblatex 2024/03/21 v3.20 programmable bibliographies (PK/MW)
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
-Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count304
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
-File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
+\Hy@SectionHShift=\skip71
+) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrextend.sty
+Package: scrextend 2024/10/24 v3.43 KOMA-Script package (extend other classes with features of KOMA-Script classes)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrkbase.sty
+Package: scrkbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrbase.sty
+Package: scrbase 2024/10/24 v3.43 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile.sty
+Package: scrlfile 2024/10/24 v3.43 KOMA-Script package (file load hooks)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlfile-hook.sty
+Package: scrlfile-hook 2024/10/24 v3.43 KOMA-Script package (using LaTeX hooks)
+ (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/koma-script\scrlogo.sty
+Package: scrlogo 2024/10/24 v3.43 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 ))
-\c@tabx@nest=\count305
-\c@listtotal=\count306
-\c@listcount=\count307
-\c@liststart=\count308
-\c@liststop=\count309
-\c@citecount=\count310
-\c@citetotal=\count311
-\c@multicitecount=\count312
-\c@multicitetotal=\count313
-\c@instcount=\count314
-\c@maxnames=\count315
-\c@minnames=\count316
-\c@maxitems=\count317
-\c@minitems=\count318
-\c@citecounter=\count319
-\c@maxcitecounter=\count320
-\c@savedcitecounter=\count321
-\c@uniquelist=\count322
-\c@uniquename=\count323
-\c@refsection=\count324
-\c@refsegment=\count325
-\c@maxextratitle=\count326
-\c@maxextratitleyear=\count327
-\c@maxextraname=\count328
-\c@maxextradate=\count329
-\c@maxextraalpha=\count330
-\c@abbrvpenalty=\count331
-\c@highnamepenalty=\count332
-\c@lownamepenalty=\count333
-\c@maxparens=\count334
-\c@parenlevel=\count335
-\blx@tempcnta=\count336
-\blx@tempcntb=\count337
-\blx@tempcntc=\count338
-\c@blx@maxsection=\count339
-\blx@maxsegment@0=\count340
-\blx@notetype=\count341
-\blx@parenlevel@text=\count342
-\blx@parenlevel@foot=\count343
-\blx@sectionciteorder@0=\count344
-\blx@sectionciteorderinternal@0=\count345
-\blx@entrysetcounter=\count346
-\blx@biblioinstance=\count347
-\labelnumberwidth=\skip58
-\labelalphawidth=\skip59
-\biblabelsep=\skip60
-\bibitemsep=\skip61
-\bibnamesep=\skip62
-\bibinitsep=\skip63
-\bibparsep=\skip64
-\bibhang=\skip65
-\blx@bcfin=\read3
-\blx@bcfout=\write4
-\blx@langwohyphens=\language79
-\c@mincomprange=\count348
-\c@maxcomprange=\count349
-\c@mincompwidth=\count350
-Package biblatex Info: Trying to load biblatex default data model...
-Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
-File: blx-dm.def 2024/03/21 v3.20 biblatex datamodel (PK/MW)
-)
-Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'numeric.dbx' not found.
-Package biblatex Info: Trying to load biblatex custom data model...
-Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count351
-\c@savedafterword=\count352
-\c@annotator=\count353
-\c@savedannotator=\count354
-\c@author=\count355
-\c@savedauthor=\count356
-\c@bookauthor=\count357
-\c@savedbookauthor=\count358
-\c@commentator=\count359
-\c@savedcommentator=\count360
-\c@editor=\count361
-\c@savededitor=\count362
-\c@editora=\count363
-\c@savededitora=\count364
-\c@editorb=\count365
-\c@savededitorb=\count366
-\c@editorc=\count367
-\c@savededitorc=\count368
-\c@foreword=\count369
-\c@savedforeword=\count370
-\c@holder=\count371
-\c@savedholder=\count372
-\c@introduction=\count373
-\c@savedintroduction=\count374
-\c@namea=\count375
-\c@savednamea=\count376
-\c@nameb=\count377
-\c@savednameb=\count378
-\c@namec=\count379
-\c@savednamec=\count380
-\c@translator=\count381
-\c@savedtranslator=\count382
-\c@shortauthor=\count383
-\c@savedshortauthor=\count384
-\c@shorteditor=\count385
-\c@savedshorteditor=\count386
-\c@labelname=\count387
-\c@savedlabelname=\count388
-\c@institution=\count389
-\c@savedinstitution=\count390
-\c@lista=\count391
-\c@savedlista=\count392
-\c@listb=\count393
-\c@savedlistb=\count394
-\c@listc=\count395
-\c@savedlistc=\count396
-\c@listd=\count397
-\c@savedlistd=\count398
-\c@liste=\count399
-\c@savedliste=\count400
-\c@listf=\count401
-\c@savedlistf=\count402
-\c@location=\count403
-\c@savedlocation=\count404
-\c@organization=\count405
-\c@savedorganization=\count406
-\c@origlocation=\count407
-\c@savedoriglocation=\count408
-\c@origpublisher=\count409
-\c@savedorigpublisher=\count410
-\c@publisher=\count411
-\c@savedpublisher=\count412
-\c@language=\count413
-\c@savedlanguage=\count414
-\c@origlanguage=\count415
-\c@savedoriglanguage=\count416
-\c@pageref=\count417
-\c@savedpageref=\count418
-\shorthandwidth=\skip66
-\shortjournalwidth=\skip67
-\shortserieswidth=\skip68
-\shorttitlewidth=\skip69
-\shortauthorwidth=\skip70
-\shorteditorwidth=\skip71
-\locallabelnumberwidth=\skip72
-\locallabelalphawidth=\skip73
-\localshorthandwidth=\skip74
-\localshortjournalwidth=\skip75
-\localshortserieswidth=\skip76
-\localshorttitlewidth=\skip77
-\localshortauthorwidth=\skip78
-\localshorteditorwidth=\skip79
-Package biblatex Info: Trying to load compatibility code...
-Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
-File: blx-compat.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-)
-Package biblatex Info: Trying to load generic definitions...
-Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
-File: biblatex.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-\c@textcitecount=\count419
-\c@textcitetotal=\count420
-\c@textcitemaxnames=\count421
-\c@biburlbigbreakpenalty=\count422
-\c@biburlbreakpenalty=\count423
-\c@biburlnumpenalty=\count424
-\c@biburlucpenalty=\count425
-\c@biburllcpenalty=\count426
-\biburlbigskip=\muskip19
-\biburlnumskip=\muskip20
-\biburlucskip=\muskip21
-\biburllcskip=\muskip22
-\c@smartand=\count427
-)
-Package biblatex Info: Trying to load natbib compatibility...
-Package biblatex Info: ... file 'blx-natbib.def' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-natbib.def
-File: blx-natbib.def 2024/03/21 v3.20 biblatex compatibility (PK/MW)
-Package biblatex Info: Delimiter 'nameyeardelim' in context '' already defined, overwriting.
-)
-Package biblatex Info: Trying to load bibliography style 'numeric'...
-Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
-File: numeric.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-Package biblatex Info: Trying to load bibliography style 'standard'...
-Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
-File: standard.bbx 2024/03/21 v3.20 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count428
-\c@bbx:relatedtotal=\count429
-))
-Package biblatex Info: Trying to load citation style 'numeric'...
-Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
-File: numeric.cbx 2024/03/21 v3.20 biblatex citation style (PK/MW)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\parencite'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcitetext'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\supercite'.
-Package biblatex Info: Redefining '\textcite'.
-Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Trying to load configuration file...
-Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
-File: biblatex.cfg 
-)
-
-Package biblatex Warning: LaTeX not in twoside mode
-(biblatex)                Falling back to 'pagetracker=page'.
-
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Document encoding is UTF8 ....
-(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2025-01-18 L3 programming layer (loader) 
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count430
-\l__pdf_internal_box=\box59
-))
-Package biblatex Info: ... and expl3
-(biblatex)             2025-01-18 L3 programming layer (loader) 
-(biblatex)             is new enough (at least 2020/04/06),
-(biblatex)             setting 'casechanger=expl3'.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
-)
-Package: blx-case-expl3 2024/03/21 v3.20 expl3 case changing code for biblatex
-))
-\@quotelevel=\count431
-\@quotereset=\count432
- (Conversational Agent Debating Capability.aux)
-\openout1 = `"Conversational Agent Debating Capability.aux"'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 28.
-LaTeX Font Info:    ... okay on input line 28.
-
--- Lines per column: 56 (exact).
-(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
-Package: color 2024/06/23 v1.3e Standard LaTeX Color (DPC)
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
-File: color.cfg 2016/01/02 v1.6 sample color configuration
-)
-Package color Info: Driver file: pdftex.def on input line 149.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count433
-\scratchdimen=\dimen182
-\scratchbox=\box60
-\nofMPsegments=\count434
-\nofMParguments=\count435
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count436
-\MPscratchDim=\dimen183
-\MPnumerator=\count437
-\makeMPintoPDFobject=\count438
-\everyMPtoPDFconversion=\toks30
-)) (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx))
-Package hyperref Info: Link coloring ON on input line 28.
- (Conversational Agent Debating Capability.out) (Conversational Agent Debating Capability.out)
-\@outlinefile=\write5
-\openout5 = `"Conversational Agent Debating Capability.out"'.
-
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
-File: english.lbx 2024/03/21 v3.20 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"Conversational Agent Debating Capability.bcf"'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Conversational Agent Debating Capability".bbl' not found.
-
-No file "Conversational Agent Debating Capability".bbl.
-Package biblatex Info: Reference section=0 on input line 28.
-Package biblatex Info: Reference segment=0 on input line 28.
-
-LaTeX Warning: Citation 'montealto2021rulebased' on page 1 undefined on input line 53.
-
-
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 55.
-
-
-
-
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 1 undefined on input line 57.
-
-
-LaTeX Warning: Citation 'sakai2020hierarchical' on page 1 undefined on input line 59.
-
-
-LaTeX Warning: Citation 'ali2022supportattack' on page 1 undefined on input line 61.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 1 undefined on input line 63.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 1 undefined on input line 63.
-
-
-
-[1{C:/Users/a/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}
-
-
-]
-
-LaTeX Warning: Citation 'rakshit2019debbie' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'tan2016winning' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 68.
-
-
-LaTeX Warning: Citation 'shuster2025judging' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'debatingforeveryone2025judge' on page 2 undefined on input line 70.
-
-
-LaTeX Warning: Citation 'shuster2025judging' on page 2 undefined on input line 70.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
-(C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
- (C:\Users\a\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-LaTeX Warning: Citation 'chalaguine2020persuasive' on page 2 undefined on input line 74.
-
 
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 74.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-[]\OT1/ptm/b/n/10 Argument graphs: \OT1/ptm/m/n/10 A vi-sual rep-re-sen-ta-tions of
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 in-ter-re-la-tions be-tween ar-gu-ments, which can be
- []
-
-
-Underfull \hbox (badness 2426) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 for-mally rep-re-sented as a di-rected graph G=(V,E),
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 di-rected edges rep-re-sent-ing sup-port and at-tack
- []
-
-
-Underfull \hbox (badness 3333) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 re-la-tions. The vi-su-al-iza-tion through such graph-i-cal
- []
-
-
-Underfull \hbox (badness 3849) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 rep-re-sen-ta-tions can make com-pli-cated in-ter-re-la-tions
- []
-
-
-Underfull \hbox (badness 4660) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 way. Though ar-gu-ment graphs ef-fi-ciently pro-mote
- []
-
-
-Underfull \hbox (badness 2556) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 un-der-stand-ing and in-volve-ment, their per-sua-sive-ness
- []
-
-
-Underfull \hbox (badness 1527) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 There-fore, they get a pos-i-tive as-sess-ment for their
- []
-
-
-Overfull \hbox (24.73499pt too wide) in paragraph at lines 74--75
-\OT1/ptm/m/n/10 [[]][[]]. 
- []
-
-
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 76.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 2 undefined on input line 83.
-
-
-
-[2]
-Overfull \hbox (3.37895pt too wide) in paragraph at lines 95--95
- []|\OT1/ptm/b/n/8 Weaknesses| 
- []
-
-
-LaTeX Warning: Citation 'montealto2021rulebased' on page 3 undefined on input line 96.
-
-
-Overfull \hbox (43.35468pt too wide) in paragraph at lines 96--96
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-LaTeX Warning: Citation 'rakshit2019debbie' on page 3 undefined on input line 97.
-
-
-Overfull \hbox (22.84274pt too wide) in paragraph at lines 97--97
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 3 undefined on input line 98.
-
-
-Overfull \hbox (35.73083pt too wide) in paragraph at lines 98--98
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (5.39224pt too wide) in paragraph at lines 99--99
- []|\OT1/ptm/m/n/8 Hierarchical| 
- []
-
-
-LaTeX Warning: Citation 'sakai2020hierarchical' on page 3 undefined on input line 99.
-
-
-Overfull \hbox (37.61612pt too wide) in paragraph at lines 99--99
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (3.89085pt too wide) in paragraph at lines 99--99
- []|\OT1/ptm/m/n/8 Personalized 
- []
-
-
-Overfull \hbox (4.0724pt too wide) in paragraph at lines 100--100
- []|\OT1/ptm/m/n/8 Explainable| 
- []
-
-
-LaTeX Warning: Citation 'ali2022supportattack' on page 3 undefined on input line 100.
-
-
-Overfull \hbox (35.09622pt too wide) in paragraph at lines 100--100
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (0.939pt too wide) in paragraph at lines 100--100
- []|\OT1/ptm/m/n/8 Transparent 
- []
-
-
-Overfull \hbox (6.72421pt too wide) in paragraph at lines 93--102
- [][] 
- []
-
-
-Overfull \hbox (8.81093pt too wide) in paragraph at lines 110--110
- []|\OT1/ptm/b/n/8 Evaluation 
- []
-
-
-LaTeX Warning: Citation 'aisera2025evaluation' on page 3 undefined on input line 110.
-
-
-Overfull \hbox (73.57043pt too wide) in paragraph at lines 110--110
- []|\OT1/ptm/b/n/8 Hybrid\OT1/ptm/m/n/8 [[]]| 
- []
-
-
-LaTeX Warning: Citation 'galileo2025benchmark' on page 3 undefined on input line 110.
-
-
-Overfull \hbox (8.81625pt too wide) in paragraph at lines 110--110
- []|\OT1/ptm/b/n/8 Hierarchical 
- []
-
-
-Overfull \hbox (48.5201pt too wide) in paragraph at lines 110--110
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-LaTeX Warning: Citation 'ibm2025aiagent' on page 3 undefined on input line 110.
-
-
-LaTeX Warning: Citation 'superannotate2025evaluation' on page 3 undefined on input line 110.
-
-
-Overfull \hbox (3.91486pt too wide) in paragraph at lines 110--110
- []|\OT1/ptm/b/n/8 Explainable 
- []
-
-
-Overfull \hbox (22.56293pt too wide) in paragraph at lines 110--110
- \OT1/ptm/m/n/8 [[]] 
- []
-
-
-Overfull \hbox (68.5866pt too wide) in paragraph at lines 110--110
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (2.0751pt too wide) in paragraph at lines 111--111
- []|\OT1/ptm/m/n/8 Accuracy| 
- []
-
-
-LaTeX Warning: Citation 'ibm2025aiagent' on page 3 undefined on input line 111.
-
-
-Overfull \hbox (31.09885pt too wide) in paragraph at lines 111--111
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-LaTeX Warning: Citation 'smythos2025performance' on page 3 undefined on input line 111.
-
-
-Overfull \hbox (61.81311pt too wide) in paragraph at lines 111--111
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (1.31494pt too wide) in paragraph at lines 111--111
- []|\OT1/ptm/m/n/8 Balanced 
- []
-
-
-LaTeX Warning: Citation 'galileo2025metrics' on page 3 undefined on input line 112.
-
-
-Overfull \hbox (2.21095pt too wide) in paragraph at lines 112--112
- []|\OT1/ptm/m/n/8 Response 
- []
-
-
-Overfull \hbox (40.41858pt too wide) in paragraph at lines 112--112
- \OT1/ptm/m/n/8 [[]]| 
- []
-
-
-Overfull \hbox (4.42696pt too wide) in paragraph at lines 113--113
- \OT1/ptm/m/n/8 (compute- 
- []
-
-
-Overfull \hbox (2.77892pt too wide) in paragraph at lines 113--113
- \OT1/ptm/m/n/8 intensive)| 
- []
-
-
-Overfull \hbox (5.77069pt too wide) in paragraph at lines 114--114
- []|\OT1/ptm/m/n/8 Scalability| 
- []
-
-
-Overfull \hbox (2.20294pt too wide) in paragraph at lines 114--114
- []|\OT1/ptm/m/n/8 Moderate 
- []
-
-
-Overfull \hbox (3.97093pt too wide) in paragraph at lines 114--114
- \OT1/ptm/m/n/8 (resource- 
- []
-
-
-Overfull \hbox (2.77892pt too wide) in paragraph at lines 114--114
- \OT1/ptm/m/n/8 intensive)| 
- []
-
-
-Overfull \hbox (10.58827pt too wide) in paragraph at lines 108--118
- [][] 
- []
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 121.
-
-
-LaTeX Warning: Citation 'lee2025reasoning' on page 3 undefined on input line 123.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 123.
-
-
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 128.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 130.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 3 undefined on input line 132.
-
-
-
-[3]
-
-LaTeX Warning: Citation 'ilkou2020symbolic' on page 4 undefined on input line 134.
-
-
-LaTeX Warning: Citation 'rakshit2019debbie' on page 4 undefined on input line 138.
-
-
-LaTeX Warning: Citation 'kulatska2019arguebot' on page 4 undefined on input line 138.
-
-
-LaTeX Warning: Citation 'montealto2021rulebased' on page 4 undefined on input line 138.
-
-
-LaTeX Warning: Citation 'chalaguine2020persuasive' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'debatingforeveryone2025judge' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'shuster2025judging' on page 4 undefined on input line 139.
-
-
-LaTeX Warning: Citation 'smythos2025performance' on page 4 undefined on input line 140.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 4 undefined on input line 141.
-
-
-LaTeX Warning: Citation 'ilkou2020symbolic' on page 4 undefined on input line 141.
-
-
-Underfull \hbox (badness 1817) in paragraph at lines 138--142
-[]\OT1/ptm/m/n/10 The de-vel-op-ment of con-ver-sa-tional agents ca-pa-ble of
- []
-
-
-Underfull \hbox (badness 2435) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 and dis-ad-van-tages of rule-based, retrieval-based, hy-brid,
- []
-
-
-Underfull \hbox (badness 2277) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 retrieval-based sys-tems, al-though of-fer-ing flex-i-bil-ity and
- []
-
-
-Underfull \hbox (badness 1377) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 ac-cess to large data sources [[]], it
- []
-
-
-Underfull \hbox (badness 1609) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 is chal-leng-ing to en-sure log-i-cal cor-rect-ness and fac-tual
- []
-
-
-Underfull \hbox (badness 6348) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 [[]]. Our work placed par-tic-u-lar
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 and sym-bolic rea-son-ing. Tech-niques like Ar-gu-ment
- []
-
-
-Underfull \hbox (badness 4168) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 Graphs of-fer good vi-su-al-iza-tion al-ter-na-tives, en-hanc-ing
- []
-
-
-Underfull \hbox (badness 3168) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 users' com-pre-hen-si-bil-ity of com-plex ar-gu-ment re-la-tions
- []
-
-
-Overfull \hbox (4.6377pt too wide) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 [[]][[]].
- []
-
-
-Underfull \hbox (badness 2073) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 AS-PIC en-ables the for-mal def-i-ni-tion of log-i-cally valid
- []
-
-
-Underfull \hbox (badness 2521) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 ar-gu-ments nec-es-sary to build con-vinc-ing and ver-i-fi-able
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 chains of ar-gu-ments [[]].
- []
-
-
-Underfull \hbox (badness 5908) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 Fur-ther-more, Multi-Attribute Ar-gu-men-ta-tion Frame-works
- []
-
-
-Underfull \hbox (badness 2818) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 log-i-cal con-sis-tency, and ad-e-quately sup-ported rea-son-ing
- []
-
-
-Underfull \hbox (badness 2781) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 trade-offs. For in-stance, for-mal structure-based meth-ods
- []
-
-
-Underfull \hbox (badness 3679) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 mod-ern ar-chi-tec-tures [[]]. In-ter-nal log-i-cal
- []
-
-
-Underfull \hbox (badness 2644) in paragraph at lines 138--142
-\OT1/ptm/m/n/10 in-for-ma-tion or rea-son-ing pro-to-cols [[]].
- []
-
-
-
-
-LaTeX Warning: Citation 'rakshit2019debbie' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'tan2016winning' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'shuster2025judging' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'chalaguine2020persuasive' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'engelmann2022argumentation' on page 4 undefined on input line 144.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 4 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'ilkou2020symbolic' on page 4 undefined on input line 145.
-
-
-LaTeX Warning: Citation 'kasif2024trilogy' on page 4 undefined on input line 145.
-
-
-Underfull \hbox (badness 1622) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 to the po-ten-tial of struc-tured the-o-ries of ar-gu-men-ta-tion
- []
-
-
-Underfull \hbox (badness 4205) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 and sym-bolic rea-son-ing. We cov-ered the foun-da-tional
- []
-
-
-Underfull \hbox (badness 6876) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 con-cepts defin-ing a good de-bate [[]]
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 [[]] [[]] and out-lined
- []
-
-
-Underfull \hbox (badness 3803) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 the key com-pu-ta-tional ap-proaches, in-clud-ing Ar-gu-ment
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 Graphs [[]], the AS-PIC
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 [[]]. These ap-proaches are
- []
-
-
-Underfull \hbox (badness 6110) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 pre-sent-ing ar-gu-ments in an or-derly fash-ion, en-abling
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 ex-plain-abil-ity, and en-abling multi-faceted ar-gu-ment
- []
-
-
-Underfull \hbox (badness 4108) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 offs be-tween dif-fer-ent agent ar-chi-tec-tures, em-pha-siz-ing
- []
-
-
-Underfull \hbox (badness 1715) in paragraph at lines 144--147
-\OT1/ptm/m/n/10 and con-sis-tent. Re-search in the fu-ture must tackle the
- []
-
-
-LaTeX Warning: Empty bibliography on input line 151.
-
-
-** Conference Paper **
-Before submitting the final camera ready copy, remember to:
-
- 1. Manually equalize the lengths of two columns on the last page
- of your paper;
-
- 2. Ensure that any PostScript and/or PDF output post-processing
- uses only Type 1 fonts and that every step in the generation
- process uses the appropriate paper size.
-
-
-
-[4] (Conversational Agent Debating Capability.aux)
- ***********
-LaTeX2e <2024-11-01> patch level 2
-L3 programming layer <2025-01-18>
- ***********
-
-
-LaTeX Warning: There were undefined references.
-
-Package rerunfilecheck Info: File `"Conversational Agent Debating Capability".out' has not changed.
-(rerunfilecheck)             Checksum: 1578C12F22C3D936E8E9EDB735C496F3;1921.
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "Conversational Agent Debating Capability"
-(biblatex)                and rerun LaTeX afterwards.
-
-Package logreq Info: Writing requests to '"Conversational Agent Debating Capability".run.xml'.
-\openout1 = `"Conversational Agent Debating Capability.run.xml"'.
-
- ) 
+LaTeX Warning: Command \@footnotemark  has changed.
+               Check if current package is valid.
+
+) (Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+(Conversational Agent Debating Capability.tex
+
+Conversational Agent Debating Capability.tex:1: LaTeX Error: Two \documentclass or \documentstyle commands.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \documentclass[conference]{
+                               IEEEtran}
+The document may only declare one class.
+
+** ATTENTION: Overriding command lockouts (line 2).
+Conversational Agent Debating Capability.tex:13: TeX capacity exceeded, sorry [text input levels=50].
+<argument> ...onal Agent Debating Capability.tex" 
+                                                  
+l.13 ...versational Agent Debating Capability.tex}
+                                                  
+If you really absolutely need more capacity,
+you can ask a wizard to enlarge me.
+
+ 
 Here is how much of TeX's memory you used:
- 18929 strings out of 473530
- 343758 string characters out of 5716730
- 1185933 words of memory out of 5000000
- 41938 multiletter control sequences out of 15000+600000
- 596941 words of font info for 108 fonts, out of 8000000 for 9000
+ 12097 strings out of 473530
+ 212865 string characters out of 5716730
+ 639552 words of memory out of 5000000
+ 35114 multiletter control sequences out of 15000+600000
+ 579907 words of font info for 76 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,12n,81p,2289b,1569s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/a/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on "Conversational Agent Debating Capability.pdf" (4 pages, 144362 bytes).
-PDF statistics:
- 118 PDF objects out of 1000 (max. 8388607)
- 16 named destinations out of 1000 (max. 500000)
- 65 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 270i,1n,177p,2868b,153s stack positions out of 10000i,1000n,20000p,200000b,200000s
+Conversational Agent Debating Capability.tex:13:  ==> Fatal error occurred, no output PDF file produced!
