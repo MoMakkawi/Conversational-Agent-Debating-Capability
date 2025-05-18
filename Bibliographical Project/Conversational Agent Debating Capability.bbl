@@ -1,0 +1,438 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{montealto2021rulebased}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=9ad02c38360aead09b225074b2a0436e}{%
+           family={Monte-Alto},
+           familyi={M\bibinithyphendelim A\bibinitperiod},
+           given={H.\bibnamedelimi H.\bibnamedelimi L.\bibnamedelimi C.},
+           giveni={H\bibinitperiod\bibinitdelim H\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=5446707d6951ec63641875bed29b10a3}{%
+           family={Possebom},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=0c73d9e71cbf7ff1037da899b9ed15c9}{%
+           family={Morveli-Espinoza},
+           familyi={M\bibinithyphendelim E\bibinitperiod},
+           given={M.\bibnamedelimi M.\bibnamedelimi M.},
+           giveni={M\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=b1004b64c09af6f0f30bdcf5c1f3050f}{%
+           family={Tacla},
+           familyi={T\bibinitperiod},
+           given={C.\bibnamedelimi A.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{85c1a232e9c977d6442356101f643836}
+      \strng{fullhash}{85c1a232e9c977d6442356101f643836}
+      \strng{fullhashraw}{85c1a232e9c977d6442356101f643836}
+      \strng{bibnamehash}{85c1a232e9c977d6442356101f643836}
+      \strng{authorbibnamehash}{85c1a232e9c977d6442356101f643836}
+      \strng{authornamehash}{85c1a232e9c977d6442356101f643836}
+      \strng{authorfullhash}{85c1a232e9c977d6442356101f643836}
+      \strng{authorfullhashraw}{85c1a232e9c977d6442356101f643836}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{DYNA}
+      \field{number}{217}
+      \field{title}{A rule-based argumentation framework for distributed contextual reasoning in dynamic environments}
+      \field{volume}{88}
+      \field{year}{2021}
+      \field{pages}{120\bibrangedash 130}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.15446/dyna.v88n217.90858
+      \endverb
+    \endentry
+    \entry{kulatska2019arguebot}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=e11525ed6e19a752965233fd862ab434}{%
+           family={Kulatska},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {University of Twente}%
+      }
+      \strng{namehash}{e11525ed6e19a752965233fd862ab434}
+      \strng{fullhash}{e11525ed6e19a752965233fd862ab434}
+      \strng{fullhashraw}{e11525ed6e19a752965233fd862ab434}
+      \strng{bibnamehash}{e11525ed6e19a752965233fd862ab434}
+      \strng{authorbibnamehash}{e11525ed6e19a752965233fd862ab434}
+      \strng{authornamehash}{e11525ed6e19a752965233fd862ab434}
+      \strng{authorfullhash}{e11525ed6e19a752965233fd862ab434}
+      \strng{authorfullhashraw}{e11525ed6e19a752965233fd862ab434}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot}
+      \field{type}{mathesis}
+      \field{year}{2019}
+    \endentry
+    \entry{sakai2020hierarchical}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=46040a61565c47752a74061600d50094}{%
+           family={Sakai},
+           familyi={S\bibinitperiod},
+           given={K.},
+           giveni={K\bibinitperiod}}}%
+        {{hash=f0939438fc74a0ed155e41f918a56edf}{%
+           family={Higashinaka},
+           familyi={H\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=72e85fe1ce7448c03f76c2f5e1b21b1f}{%
+           family={Yoshikawa},
+           familyi={Y\bibinitperiod},
+           given={Y.},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=4a7e5a02cd4bb22602afab59f3d659f5}{%
+           family={Ishiguro},
+           familyi={I\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+        {{hash=6f19819aea1a13e4f75fdf6eb9296c57}{%
+           family={Tomita},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{2}{%
+        {The Institute of Electronics, Information}%
+        {Communication Engineers}%
+      }
+      \strng{namehash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{fullhash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{fullhashraw}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{bibnamehash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{authorbibnamehash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{authornamehash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{authorfullhash}{2b72addf8c60c3a04f9618398c64e8ee}
+      \strng{authorfullhashraw}{2b72addf8c60c3a04f9618398c64e8ee}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEICE Transactions on Information and Systems}
+      \field{number}{2}
+      \field{title}{Hierarchical argumentation structure for persuasive argumentative dialogue generation}
+      \field{volume}{103}
+      \field{year}{2020}
+      \field{pages}{424\bibrangedash 434}
+      \range{pages}{11}
+    \endentry
+    \entry{ali2022supportattack}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=d0224aee691fee9994ce559489efc40e}{%
+           family={Ali},
+           familyi={A\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=d920e05a56a2e475bed1a2b0d668e8ac}{%
+           family={Pawar},
+           familyi={P\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=8a4c156d2175b751dd97d60c45efaac7}{%
+           family={Palshikar},
+           familyi={P\bibinitperiod},
+           given={G.\bibnamedelimi K.},
+           giveni={G\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=535b46081523fc5c5dcfaba2a621d930}{%
+           family={Singh},
+           familyi={S\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {European Language Resources Association (ELRA)}%
+      }
+      \strng{namehash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{fullhash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{fullhashraw}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{bibnamehash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{authorbibnamehash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{authornamehash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{authorfullhash}{37f5a1feb0c55f36618d3957a180e7a0}
+      \strng{authorfullhashraw}{37f5a1feb0c55f36618d3957a180e7a0}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)}
+      \field{note}{Retrieved from \url{https://www.elra.info}}
+      \field{title}{Constructing a dataset of support and attack relations in legal arguments in court judgements using linguistic rules}
+      \field{year}{2022}
+      \field{pages}{491\bibrangedash 500}
+      \range{pages}{10}
+    \endentry
+    \entry{kasif2024trilogy}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=fb2114557a76d51cb5c048fb7e0edc6d}{%
+           family={Kasif},
+           familyi={K\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{fullhash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{fullhashraw}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{bibnamehash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{authorbibnamehash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{authornamehash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{authorfullhash}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \strng{authorfullhashraw}{fb2114557a76d51cb5c048fb7e0edc6d}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{arXiv preprint arXiv:2410.06946}
+      \field{note}{Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University}
+      \field{title}{A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://arxiv.org/abs/2410.06946
+      \endverb
+      \verb{url}
+      \verb https://arxiv.org/abs/2410.06946
+      \endverb
+    \endentry
+    \entry{rakshit2019debbie}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=f3ee2718c1e5b80a79e03fa46fdcd64c}{%
+           family={Rakshit},
+           familyi={R\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=eceabe0863f62fb382df5512a07d3e09}{%
+           family={Bowden},
+           familyi={B\bibinitperiod},
+           given={K.\bibnamedelimi K.},
+           giveni={K\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=121337b04b965b300050641fe9d7faa0}{%
+           family={Reed},
+           familyi={R\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=c691266d453676e5ae92536b8573b56f}{%
+           family={Misra},
+           familyi={M\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=725f408ad4476a0c9389f5ed0493cf18}{%
+           family={Walker},
+           familyi={W\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{fullhash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{fullhashraw}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{bibnamehash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{authorbibnamehash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{authornamehash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{authorfullhash}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \strng{authorfullhashraw}{5e91f711aea1bb3d35a4eec6975d4f45}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems}
+      \field{title}{Debbie, the debate bot of the future}
+      \field{year}{2019}
+      \field{pages}{45\bibrangedash 52}
+      \range{pages}{8}
+    \endentry
+    \entry{tan2016winning}{inproceedings}{}{}
+      \name{author}{4}{}{%
+        {{hash=33376762c80dfed868365183d1e67cfd}{%
+           family={Tan},
+           familyi={T\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=fa7794c52de248ee32adea587bdd8437}{%
+           family={Niculae},
+           familyi={N\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=0a7d1ca51926cb0bf8bc3e8976a143bf}{%
+           family={Danescu-Niculescu-Mizil},
+           familyi={D\bibinithyphendelim N\bibinithyphendelim M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4982fdfc0a84c83be3c21bd5e1290543}{%
+           family={Lee},
+           familyi={L\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{fullhash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{fullhashraw}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{bibnamehash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{authorbibnamehash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{authornamehash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{authorfullhash}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \strng{authorfullhashraw}{69632e95d9e9d3d03e58f9bc519edbb7}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the 25th International Conference on World Wide Web}
+      \field{title}{Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions}
+      \field{year}{2016}
+      \field{pages}{613\bibrangedash 624}
+      \range{pages}{12}
+    \endentry
+    \entry{engelmann2022argumentation}{inproceedings}{}{}
+      \name{author}{5}{}{%
+        {{hash=92cb8b6245fa453dc0b29b2d723c75ae}{%
+           family={Engelmann},
+           familyi={E\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=bcdae05689b91c71028a5daa2b508822}{%
+           family={Damasio},
+           familyi={D\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a58fe1aa057fdd70d43cd1da4246b662}{%
+           family={Panisson},
+           familyi={P\bibinitperiod},
+           given={A.\bibnamedelimi R.},
+           giveni={A\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=b76d638a11ee71fb8f31f04a45ae9889}{%
+           family={Mascardi},
+           familyi={M\bibinitperiod},
+           given={V.},
+           giveni={V\bibinitperiod}}}%
+        {{hash=2b32b2fa7095d581b4b6376b2dd498a6}{%
+           family={Bordini},
+           familyi={B\bibinitperiod},
+           given={R.\bibnamedelimi H.},
+           giveni={R\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{fullhash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{fullhashraw}{c4b42a38a17bc04870fea9944788983d}
+      \strng{bibnamehash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{authorbibnamehash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{authornamehash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{authorfullhash}{c4b42a38a17bc04870fea9944788983d}
+      \strng{authorfullhashraw}{c4b42a38a17bc04870fea9944788983d}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)}
+      \field{title}{Argumentation as a method for explainable AI: A systematic literature review}
+      \field{year}{2022}
+      \field{pages}{1\bibrangedash 6}
+      \range{pages}{6}
+    \endentry
+    \entry{chalaguine2020persuasive}{incollection}{}{}
+      \name{author}{2}{}{%
+        {{hash=ab51b0ec88564c90c13ce77bbc817a4f}{%
+           family={Chalaguine},
+           familyi={C\bibinitperiod},
+           given={L.\bibnamedelimi A.},
+           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ee34b7942f3fae98191de63aca6b1e67}{%
+           family={Hunter},
+           familyi={H\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOS Press}%
+      }
+      \strng{namehash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{fullhash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{fullhashraw}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{bibnamehash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{authorbibnamehash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{authornamehash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{authorfullhash}{de9f3ec2500c7343c39d74705ea20049}
+      \strng{authorfullhashraw}{de9f3ec2500c7343c39d74705ea20049}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Computational Models of Argument}
+      \field{title}{A persuasive chatbot using a crowdsourced argument graph and concerns}
+      \field{year}{2020}
+      \field{pages}{9\bibrangedash 20}
+      \range{pages}{12}
+    \endentry
+    \entry{ilkou2020symbolic}{inproceedings}{}{}
+      \name{author}{2}{}{%
+        {{hash=9763d2b0987adf6e117f2e537f80e651}{%
+           family={Ilkou},
+           familyi={I\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod}}}%
+        {{hash=fc60e3a8694de213caa7069d416b7ff6}{%
+           family={Koutraki},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{organization}{1}{%
+        {CEUR Workshop Proceedings}%
+      }
+      \strng{namehash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{fullhash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{fullhashraw}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{bibnamehash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{authorbibnamehash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{authornamehash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{authorfullhash}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \strng{authorfullhashraw}{59ed3e6a9a40c5c8b8bd78d435cc47ab}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the CIKM 2020 Workshops}
+      \field{note}{Accessed: Mar. 23, 2025}
+      \field{title}{Symbolic vs Sub-symbolic AI Methods: Friends or Enemies?}
+      \field{year}{2020}
+      \verb{urlraw}
+      \verb http://ceur-ws.org
+      \endverb
+      \verb{url}
+      \verb http://ceur-ws.org
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

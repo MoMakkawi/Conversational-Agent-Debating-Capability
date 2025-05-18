@@ -1,26 +1,35 @@
 \documentclass[conference]{IEEEtran}
 \IEEEoverridecommandlockouts
+\usepackage{rotating} 
 % \usepackage{cite}
 \usepackage{amsmath,amssymb,amsfonts}
 \usepackage{array}
 \usepackage{csvsimple}
 \usepackage{fancyhdr}
 \usepackage{threeparttable}
-\usepackage[colorlinks]{hyperref}
+\usepackage{graphicx}
+\usepackage{float} 
+\usepackage{adjustbox}
+\usepackage{tabularx}
+\usepackage{hyperref} %[colorlinks]{hyperref}
 \def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
     T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
 \usepackage{scrextend}
-\input{Conversational Agent Debating Capability.tex}
-\usepackage[backend=biber,
-            style=numeric,
-            % autocite=footnote,
-            autocite=superscript,
-            indexing=cite,
-            pagetracker=spread,
-            hyperref=false,
-            maxcitenames=1, % if "et al." is used, show this many authors before it.
-            maxbibnames=1, %99, # when does it introduce "et al." ?
-            natbib]{biblatex}
+\input{Conversational Agent Debating Capability Web References.tex}
+\usepackage[
+    backend=biber,
+    style=numeric,
+    sorting=none, % or your preferred sorting method
+    autocite=superscript,
+    indexing=cite,
+    pagetracker=spread,
+    hyperref=true, %false,
+    maxcitenames=5, % Show all authors (1-5) in citations; "et al." only for 6+
+    mincitenames=1,  % Always show at least 1 name
+    maxbibnames=5,   % Show all authors (1-5) in bibliography; "et al." only for 6+
+    minbibnames=1,   % Always show at least 1 name
+    natbib
+]{biblatex}
 \renewbibmacro{in:}{} % no "In" before mentioning the journal name
 \renewcommand*{\bibfont}{\footnotesize}%{\small} % reduce font size of bibliography
 \bibliography{Conversational Agent Debating Capability References.bib}
@@ -48,61 +57,76 @@
 \maketitle
 
 \begin{abstract}
-This article discusses the evolving capabilities of conversational agents to participate in sophisticated debates in terms of structured argumentation and symbolic reasoning strategies. A thorough review on salient computational approaches such as Argument Graphs, the ASPIC methodology, and Multi-Attribute Argumentation Frameworks, and evaluate how they enhance logical consistency, comprehensibility, and rhetorical power in AI debates is done. By contrasting rule-based, retrieval-based, hybrid, hierarchical, and explainable agent architectures, the article highlights the strengths and trade-offs in diverse designs. Symbolic approaches are accorded special emphasis as a foundation for user trust and system verifiability. While significant progress has been made, challenges persist such as uncertainty management, knowledge acquisition bottlenecks, and real-time adaptability. This study underscores the importance of blending formal strictness with adaptive approaches in realizing the optimal potential of AI debaters in advanced argumentative debate.
+
+This article discusses the evolving capabilities of conversational agents to participate in sophisticated debates in terms
+of structured argumentation and symbolic reasoning strategies.
+A thorough review on salient computational approaches such as Argument Graphs, the ASPIC methodology, and Multi-Attribute Argumentation Frameworks, and evaluation of how they enhance
+logical consistency, comprehensibility, and rhetorical power in AI debates is done. By comparing different debating architectures such as rule-based, retrieval-based, hybrid, hierarchical, and explainable agent, the paper highlights the benefits and trade-offs in different designs. Symbolic approaches emphasize user trust and verifiability of the system.
+Despite significant progress, problems such as uncertainty management, knowledge acquisition bottlenecks, and real-time adaptability remain challenging. This work highlights the need to
+incorporate formal strictness with adaptive methods in expoiting the optimal potential of AI debaters in advanced argumentative
+debate.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Debate Systems, Argumentation, Conversational Agents, Argumentation Service Platform with Integrated Components (ASPIC), Retrieval-Augmented Generation (RAG).
+Debate Systems, Argumentation, Conversational Agents, Argumentation Service Platform with Integrated Components (ASPIC), Retrieval-Augmented Generation (RAG), Large Language Model (LLM).
 \end{IEEEkeywords}
 
 \section{Introduction}
-Dialogue systems capable of debating at a level of sophistication are a growing area of research in Artificial Intelligence. Not only do these systems need to understand and generate arguments, but they must stick to principles of logic and persuasion, the same as advanced human interactions. Creating arguing agents that can present justified positions, decide controversies, and rebuttal counterarguments in a logical manner is a significant technical challenge with tremendous potential for application ranging from educational software to sophisticated decision support systems. Several approaches have been formulated to meet this challenge, each with its own merits and weaknesses.
+Dialogue systems capable of debating at a level of sophistication are a growing area of research in Artificial Intelligence. Not only do these systems need to understand and generate arguments, but they must stick to principles of logic and persuasion, the same as advanced human interactions. Creating arguing agents that can present justified positions, decide controversies, and rebuttal counterarguments in a logical manner is a significant technical challenge with tremendous potential for application ranging from educational software to sophisticated decision support systems. To meet these challenges, some approaches have been formulated having their merits and disadvantages.
 
-Among the several approaches, Rule based agents are one of the earliest and straightforward method. These systems function on the basis of pre-established templates and logical rules picked from expert knowledge. Although they provide predictability and control in precise, limited domains with the assurance of consistency and sound reasoning, their use of fixed structures tends to yield inflexible responses and makes them less adaptable in dynamic or unexpected debate situations \cite{montealto2021rulebased}.
+Among the several approaches, rule based agents are one of the earliest and straightforward method. These systems function on the basis of pre-established templates and logical rules picked from expert knowledge. Although they provide good predictability, their use of predefined templates restrict their domain and may lead to irrelevant responses \cite{montealto2021rulebased}.
 
-Alternatively, Retrieval-based agents, sometimes combined with techniques like Retrieval-Augmented Generation (RAG), directly retrieve arguments from massive databases or text corpora \cite{kulatska2019arguebot}. Using vast amounts of existing knowledge, this allows for fast generation of contextually diverse responses. However, ensuring the factual correctness, contextual appropriateness, and logical consistency of the generated or retrieved arguments remains a significant challenge for such systems.
+Alternatively, retrieval-based agents, sometimes combined with techniques like Retrieval-Augmented Generation (RAG), directly retrieve arguments from massive databases or text corpora \cite{kulatska2019arguebot}. Using vast amounts of existing knowledge, this allows for fast generation of contextually diverse responses. However, ensuring the factual and logical consistency of the retrieved arguments remains a significant challenge for such systems.
 
 Hybrid argumentation agents seek to combine clear logical rules with adaptable responses learned from data. By typically integrating retrieval mechanisms and explicit reasoning mechanisms (e.g. rule-based logic or knowledge graphs), these agents aim to produce more flexible, relevant, and logically coherent arguments than purely rule-based or retrieval-based systems alone can \cite{kulatska2019arguebot}.
 
-Further complexity is added by Hierarchical persuasion agents. These systems aim to model the interaction of argumentation itself, perhaps constructing arguments step-by-step based on dialogue context or feedback from the user. This is to maximize the overall quality of the interaction and the persuasive effect over time by dynamic adjustment of the argumentative strategy \cite{sakai2020hierarchical}.
+Further complexity is added by hierarchical persuasion agents. These agents model the interaction of argumentation itself, resulting in step-by-step construction of arguments based on dialogue context or feedback from the user. This maximizes the overall quality and persuasiveness of the debate \cite{sakai2020hierarchical}.
 
-Finally, Explainable debate agents prioritize transparency in their argumentative process \cite{ali2022supportattack}. By making their claims and reasoning steps explicitly justified, these agents aim to enhance user trust along with facilitating the ease of inspection of the agent's logical validity, which is crucial in critical applications.
+Finally, explainable debate agents prioritize transparency in their argumentative process \cite{ali2022supportattack}. By making their claims and reasoning steps explicitly justified, these agents provide the insights to logical validity of the arguments, which also enhances the user trust.
 
-Although many methodologies are facilitating AI debate capabilities, this study investigates the specific contributions of structured argumentation theory-based and symbolic reasoning-based methods to make the agent able to conduct a good debate. This paper focuses on three key argumentation frameworks to enable agents to conduct debates, first is Argument Graphs, which provide intuitive visualization of argument relationships. Second is ASPIC+, offering formal structure for logical argument and third is Multi-Attribute Frameworks, enabling multidimensional argument comparison. Together, these improve argumentation robustness and comprehensibility. In detail, analysis is conducted on how these techniques facilitate structured reasoning and knowledge representation, highlighting, in particular, their advantages of explainability and logical consistency \cite{kasif2024trilogy}. Meanwhile, we acknowledge and resolve inherent challenges for such symbolically-biased systems, such as managing uncertainty and dynamically revising reasoning protocols in real-time debate contexts \cite{kasif2024trilogy}.
+Although many methodologies are facilitating AI debate capabilities, this research investigates the contributions of structured argumentation theory-based and symbolic reasoning-based methods to make the agent able to conduct a good debate. Three argumentation techniques are discussed in the scope of this paper to make the conversational agents able to debate, starting with argument graphs which provide intuitive visualization of argument relationships. Second is ASPIC+, offering formal structure for logical argument and third is Multi-Attribute Frameworks, enabling multidimensional argument comparison. Together, these improve argumentation robustness and comprehensibility. In detail, analysis is conducted on how these techniques facilitate structured reasoning and knowledge representation, highlighting, in particular, their advantages of explainability and logical consistency \cite{kasif2024trilogy}. Meanwhile, we acknowledge and resolve inherent challenges for such systems, such as managing uncertainty and dynamically revising reasoning protocols in real-time debate contexts \cite{kasif2024trilogy}.
 
-This paper will initially develop a brief definition of debate and effective argumentation criteria. We then explore leading computational approaches (Argument Graphs, ASPIC, and Multi-Attribute frameworks) before comparatively evaluating a number of agent architectures for debate. The approach further demonstrates that symbolic reasoning is critical for achieving explainability and maintaining logical soundness. We subsequently present the general limitations and challenges for the development of proficient AI debaters, setting the stage for concluding observations.
+Although Large Language Models (LLMs) being an important part of the research in conversational agents due to their fluency and generative AI, this paper directs its research on symbolic reasoning approaches. We acknowledge the very great capabilities of LLMs, but the focus of this research is more on formal argumentation structures like ASPIC+, Argument Graphs, and corresponding symbolic methods. These techniques guarantee logical consistency, valid arguments, and immanent explainability. These are the qualities that are critical in designing debating agents that can deploy the meaningful and logically consistent arguments that lead to good argumentation.
 
-Although Large Language Models (LLMs) are unquestionably the buzzword of today propelling AI developments and are important for their fluency and generative AI, this paper directs its research on symbolic reasoning approaches. We acknowledge the very great capabilities of LLMs, but the focus of this research is more on formal argumentation structures like ASPIC+, Argument Graphs, and corresponding symbolic methods. This alternative is driven by the unique value that these strategies guarantee logical consistency, valid arguments, and immanent explainability. These are the qualities that are critical in designing debating agents that can deploy the meaningful and logically consistent arguments that lead to good argumentation.
+This paper will initially develop a brief definition of debate and effective argumentation criteria. Section III explores leading computational approaches (Argument Graphs, ASPIC, and Multi-Attribute frameworks) before comparatively evaluating a number of agent architectures for debate. The approach further demonstrates that symbolic reasoning is critical for achieving explainability and maintaining logical soundness. Section IV, outlines the broad restrictions and difficulties in creating skilled AI debaters, laying the groundwork for our final findings.
+
+
+
 \section{Debate Definition and What Makes a Good Debate}
-Debate is a formal process in which two or more debaters take turns presenting systematic arguments and counterarguments on some prescribed subject, under established rules and time constraints, with the objective of advancing, defending, and challenging positions for judgment by an adjudicator or audience members \cite{rakshit2019debbie}\cite{tan2016winning}. It can also be viewed as a game of arguments where the exchanges are governed by pre-established rules, such as the number and function of the participants, strict alternation, timing and sequence of the speeches, and the requirement to rebut opposite arguments in a pre-established format \cite{engelmann2022argumentation}. A good debate consists of empirical evidence-based arguments that are well-supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality - that is, how well an argument is supported, clear, relevant, and logically sound - are elements that make responses effective as a whole \cite{engelmann2022argumentation}.
+Debate is a process in which group of debaters take turns presenting systematic arguments and counterarguments on some prescribed subject, under established rules and time constraints, with the objective of advancing, defending, and challenging positions for judgment by an adjudicator or audience members \cite{rakshit2019debbie},\cite{tan2016winning}. It can be seen as a scenario where argument exchanges are governed by pre-established rules, such as number of debaters, strict alternation, timing and sequence of the speeches, and the requirement to rebut opposite arguments in a pre-established format \cite{engelmann2022argumentation}. What exactly constitutes a "good" debate remains an open question, as criteria can vary depending on context, format, and evaluative priorities.For example, if the debate is academic, logical consistency and evidence are the important factors. But if the debate is political, clarity of delivery and public persuasion are the most important factors. A good debate consists of empirical evidence-based arguments that are well supported, clear explanations that spell out reasoning using simple language, and an awareness of counterarguments to back persuasive attempts. Moreover, logical coherence between premises and the categorization of argument quality, that is, how well an argument is supported, clear, relevant, and logically sound, are elements that make responses effective as a whole \cite{engelmann2022argumentation}.
 
-In order to evaluate debate performance well, judges look for ordered argumentation with an organized structure, logical flow, and successful refutations. The quality of evidence is extremely pertinent and should be based on actual facts, credible sources, and firm resolutions. Teams must demonstrate prioritization of argumentation and insight into the most significant "point of clash" . Judges are also responsible for recognizing fabricated evidence, ad hominem attacks, or rule violations. Qualitative evaluation focuses on the strength of the argument.
 
-\newpage
+In order to evaluate debate performance well, judges look for ordered argumentation with an organized structure, logical flow, and successful refutations. The quality of evidence is extremely pertinent and should be based on actual facts, credible sources, and firm resolutions. Teams must prioritize argumentation and provide insights into the ``point of clash''. Judges are also responsible for recognizing fabricated evidence, ad hominem attacks, or rule violations. Qualitative evaluation focuses on the strength of the argument.
+
+
 \section{Conversational Agent Debating Techniques and Applications}
 Debating Agents use argumentation techniques to engage themselves into meaningful and persuasive debate to go through complex debating topics. Under this section, key argumentation techniques are examined.
 
 
 \begin{itemize}
-    \item \textbf{Argument graphs:} 
-    A visual representations of interrelations between arguments, which can be formally represented as a directed graph G=(V,E), where V is the vertices (arguments) and E is the directed edges representing support and attack relations. The visualization through such graphical representations can make complicated interrelations between arguments easy to understand, making them understandable by audience members in a more readable way. Though argument graphs efficiently promote understanding and involvement, their persuasiveness relies on the quality and strength of the arguments. Therefore, they get a positive assessment for their ability to provide clarity in persuasive conversations \cite{chalaguine2020persuasive}\cite{engelmann2022argumentation}.
+\item \textbf{Argument graphs:} 
+    A visual representations of interrelations between arguments, which can be formally represented by a graph, in which there are vertices that represent arguments and the edges represents support and attack relations. The visualization through such graphical representations can make complicated interrelations between arguments easy to understand, making them understandable by audience members in a more readable way. Though argument graphs efficiently promote understanding and involvement, their persuasiveness relies on the argument quality. Therefore, they get a positive assessment for their ability to provide clarity in persuasive conversations \cite{chalaguine2020persuasive},\cite{engelmann2022argumentation}.
 
     \item \textbf{ASPIC framework:} 
-    The ASPIC+ framework provides a formal and structured format for argument presentation and evaluation, particularly valuable in contexts like debate where logical rigor is essential. At its core, ASPIC+ specifies how arguments can be systematically constructed by applying inference rules to a base of premises or accepted facts to derive claims. These rules are typically divided into two types: strict rules, which represent deductive, logically necessary inferences (e.g., 'if X is a square, then X is a rectangle'), ensuring the conclusion must hold if the premises do; and defeasible rules, which capture plausible, common-sense, or presumptive reasoning where the conclusion typically holds but may be defeated by exceptions or contrary evidence (e.g., 'birds typically fly'). Arguments are thus chains linking premises to a final claim via sequences of these strict and/or defeasible rules. ASPIC+ then explicitly defines various ways arguments can conflict through different types of 'attack' relations, such as challenging a premise used in an argument or rebutting a conclusion derived via a defeasible rule. Crucially, preferences between arguments are often used to determine which attacks are successful, leading to a formal assessment of which arguments are ultimately justified. With this formal setup, revealing the step-by-step application of specific rules, there comes the potential for unambiguous logical demonstration. While the full network of interacting arguments and attacks typically forms a complex argument graph, the structured nature allows specific lines of reasoning supporting a claim to be clearly traced. This explicit structure, revealing the logical connections and dependencies, helps 'fortify' an argument for persuasion by making its reasoning transparent to an audience for evaluation. Evaluative perspective shows that ASPIC+'s strong logical structure is well-suited to enable sound arguments, thereby aiding in the promotion of reasoned persuasion \cite{engelmann2022argumentation}.
+    The ASPIC+ framework provides a formal and structured format for argument presentation and evaluation, particularly valuable in contexts like debate where logical rigor is essential. At its core, ASPIC+ specifies how arguments can be made systematically by using rules to derive claims from facts. Strict rules and defeasible rules are the two rules which are used in ASPIC+.To start with strict rules which represent deductive, logically necessary inferences (e.g., "if X is a square, then it is also a rectangle"), this ensures that the conclusion is correct if the premises is true. Defeasible rules, which use common-sense, or presumptive reasoning where the conclusion typically holds but it still has a probability of getting defeated by an attacking argument (e.g., "birds typically fly"). Arguments are so chains that link premises to a claim via sequences of these strict and defeasible rules. ASPIC+ then explicitly defines various ways arguments can conflict through different types of attack relations, such as challenging a premise used in an argument or rebutting a conclusion derived via a defeasible rule. Crucially, preferences between arguments are often used to determine which attacks are successful, leading to a formal assessment of which arguments are ultimately justified. With this formal setup, revealing the step-by-step application of specific rules, there comes the potential for unambiguous logical demonstration. While the full network of interacting arguments and attacks typically forms a complex argument graph, the structured nature allows specific lines of reasoning supporting a claim to be clearly traced. This explicit structure, revealing the logical connections and dependencies, helps fortify an argument for persuasion by making its reasoning transparent to an audience for evaluation. Evaluative perspective shows that ASPIC+'s strong logical structure is well-suited to enable sound arguments, thereby aiding in the promotion of reasoned persuasion \cite{engelmann2022argumentation}.
 
     \item \textbf{Multi-Attribute Argumentation Framework:} 
-    This framework ranks arguments on multiple criteria such as (logical soundness,relevance, clarity), where weights are attached to each criterion and score is evaluated for the argument. The multi-aspect analysis process allows for sensitive rankings that are capable of communicating directly with the values of the audience, optimally maximizing the persuasive power of the framework. This approach is widely valued for its ability to accommodate heterogeneous preferences, enhancing the persuasiveness of arguments. \cite{engelmann2022argumentation}.
+    This technique ranks arguments on multiple criteria such as (logical soundness, relevance, clarity), and each criterion is attached with weights and score is evaluated for the argument. The multi-aspect analysis process allows for sensitive rankings so that arguments correctly align with audience's values to increase the persuasiveness of this technique. This approach is widely valued for its capability to accommodate heterogeneous preferences, enhancing the persuasiveness of arguments \cite{engelmann2022argumentation}.
 
-    While Argument Graphs Framework is proficient at visual clarity for complex debating structure and Multi-Attribute Argumentation Framework excel at ranking arguments based on criteria to improve the persuasiveness.However the ASPIC+ framework stands out for providing conversational agent with core debating capability. Its primary advantage lies in its formal, rule-based approach, which ensures the construction of logical arguments and provides a mechanism for evaluating their justification through well-defined attack relations and preferences.
+    While Argument Graphs Framework is proficient at visual clarity for complex debating structure and Multi-Attribute Argumentation Framework excel at ranking arguments based on criteria to improve the persuasiveness. However the ASPIC+ framework stands out for providing conversational agent with core debating capability. Its primary advantage lies in its formal, rule-based approach, which ensures the construction of logical arguments and provides a mechanism for evaluating their justification through well-defined attack relations and preferences.
+
     
 \end{itemize}
 
 \section{Comparative Analysis and Evaluation of Debate Agents}
-To facilitate an easy understanding of the landscape of debate agents, this paper has two significant tables. Table I has a simplified overview of different types of conversational agents utilized in debate use cases, including their approaches, strengths, and weaknesses. Table II takes it further by listing a comparison of evaluation metrics for these agents in tabular form. These tables are designed to be an easy reader reference, enabling us to make useful comparisons and contrasts between different agent architectures and assessment criteria in the field.
+To facilitate an easy understanding of the landscape of debate agents, this paper has two significant tables. Table \ref{tab:agents} has a simplified overview of different types of conversational agents utilized in debate use cases, including their approaches, strengths, and weaknesses. Table \ref{tab:ai_models} takes it further by listing a comparison of evaluation metrics for these agents in tabular form. These tables are designed to be an easy reader reference, enabling us to make useful comparisons and contrasts between different agent architectures and assessment criteria in the field.
+
+
 \begin{table}[ht]
     \centering
     \caption{Overview of Different Conversational Agent Types for Debate Applications}
     \label{tab:agents}
+\begin{adjustbox}{width=\columnwidth,center}    
     \begin{tabular}{|>{\centering\arraybackslash}p{1.2cm}|>{\centering\arraybackslash}p{1.5cm}|>{\centering\arraybackslash}p{1.6cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.3cm}|}
     \hline
     \textbf{Agent Type}   & \textbf{Approach}                    & \textbf{Use Cases}                   & \textbf{Strengths}         & \textbf{Weaknesses}        \\ \hline
@@ -112,70 +136,79 @@ To facilitate an easy understanding of the landscape of debate agents, this pape
     Hierarchical         & Feedback-driven adaptation \cite{sakai2020hierarchical}  & Policy negotiation                   & Personalized arguments     & Feedback latency           \\ \hline
     Explainable          & Justification chains \cite{ali2022supportattack}       & Diagnostics, Legal systems           & Transparent explanations   & Depth limitations          \\ \hline
     \end{tabular}
+\end{adjustbox}
 \end{table}
 
-\begin{table}[ht]
-    \centering
+\footnotetext[1]{\label{galileobenchmark}\galileobenchmark}
+\footnotetext[2]{\label{ibmaiagenteval}\ibmaiagenteval}
+\footnotetext[3]{\label{superannotateevaluation}\superannotateevaluation}
+\footnotetext[4]{\label{smythosperformance}\smythosperformance}
+
+\begin{table}[H]
+\begin{minipage}{\columnwidth}
+\raggedleft
+\begin{turn}{90}
     \begin{threeparttable}
     \caption{Evaluation Metrics for Conversational Agents in Debate Applications}
     \label{tab:ai_models}
-    \begin{tabular}{|>{\centering\arraybackslash}p{1.1cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.1cm}|>{\centering\arraybackslash}p{1.3cm}|>{\centering\arraybackslash}p{1.4cm}|>{\centering\arraybackslash}p{1.7cm}|}
+    \begin{tabularx}{\textheight}{|X|X|X|X|X|X|}
     \hline
-    \textbf{Evaluation criteria}  & \textbf{Rule-Based}                 & \textbf{Retrieval}                            & \textbf{Hybrid}             & \textbf{Hierarchical} \tnote{1}                & \textbf{Explainable}\tnote{2} \tnote{,} \tnote{3} \\ \hline
+    \textbf{Evaluation criteria}  & \textbf{Rule-Based}                 & \textbf{Retrieval}                            & \textbf{Hybrid}             & \textbf{Hierarchical}  \tnote{1}                & \textbf{Explainable}\tnote{2} \tnote{,} \tnote{3} \\ \hline
     Accuracy                      & High in narrow domains \tnote{2}   & Moderate (depends on data quality) \footnotemark[4] & Balanced across tasks                 & Varies by hierarchy level                 & Moderate (prioritizes transparency over optimization) \\ \hline
     Response Time \tnote{1}     & Fast (deterministic)                & Moderate (retrieval latency)                  & Slow (multi-layer processing)         & Slowest (sequential decision-making)      & Moderate (additional explainability overhead) \\ \hline
     Cost Efficiency               & Low (static rules)                  & Moderate (retrieval infrastructure)           & High (compute-intensive)              & High (maintenance complexity)             & Moderate (explanation generation costs) \\ \hline
     Scalability                   & Poor (rule complexity)              & High (modular data updates)                   & Moderate (resource-intensive)         & Best (layered abstraction)                & Limited (Model Size Complexity) \\ \hline
     Stability                     & High (deterministic)                & Moderate (data drift sensitivity)             & High (adaptive tuning)                & High (isolated failures)                  & Moderate (explanation consistency) \\ \hline
     User Satisfaction             & Low (inflexible)                    & Moderate (context-aware)                      & High (balanced UX)                    & Moderate (learning curve)                 & Highest (trust through clarity) \\ \hline
-    \end{tabular}
-    \begin{tablenotes}
-        \footnotesize
-        \item[1] \galileobenchmark 
-        \item[2] \ibmaiagenteval
-        \item[3] \superannotateevaluation 
-        \item[4] \smythosperformance
-    \end{tablenotes}
+    \end{tabularx}
     \end{threeparttable}
+\end{turn}
+\end{minipage}
 \end{table}
 
 
-\section{Symbolic Methods: Explainability and Validity in Logical Reasoning}
-Symbolic techniques emphasize representation of knowledge as ordered, legible symbols derived from sound logical reasoning to argue about a problem. They leverage formal logic, systems of rules, and graphs of knowledge. Their greatest strength is explainable reasoning, in order to substantiate an argument or decision \cite{kasif2024trilogy}. 
 
-To evaluate reasoning in symbolic methods, we ensure that each step logically follows earlier premises without contradiction, usually through formal entailment tests or truth tables of propositional logic. A formal test of entailment works by checking if a conclusion is formally derivable from an argument set of premises based on formal laws of logic like truth table or by examination of the rules of inference in order to determine if in all cases where premises are valid, the conclusion as well shall have to be true. If this condition holds, entailment is established, meaning the argument is valid and free from contradiction. In good debating systems, soundness is achieved by analyzing streams of reasoning which is a sequence of logically connected steps or conclusions that follow each other to reach a conclusion. It is defined formally as a sequence of statements or conclusions, each supported by antecedent ones and founded on accepted rules, forming an intelligible and traceable chain from premises to conclusion. comparing them with symbolic ground truths (for example, mathematical theorems or logical derivations), and cross-verifying against recognized rules \footnote{\label{leereasoning}\leereasoning}. This explainability enhances user trust in the system and its usability \cite{kasif2024trilogy}.
+\section{Symbolic Methods: Explainability and Validity in Logical Reasoning}
+Symbolic techniques represent knowledge as ordered, legible symbols derived from sound logical reasoning to argue about a problem.  They use formal logic, rule systems, and knowledge graphs. Through explainability, these techniques defend the argument that has been selected, and this is what makes them stand out \cite{kasif2024trilogy}. 
+
+In symbolic methods, every step follows logically from earlier premises without contradiction, usually by formal entailment tests or propositional logic truth tables. A formal test entailment examines if a conclusion can be derived from a set
+of premises based on formal laws of logic, like truth table, to guarantee conclusion is only made when the set of premises
+utilized are valid. To achieve soundness in debating systems, streams of reasoning are analyzed to check if they support each other to reach a conclusion. It is defined as a sequence of results, each supported by antecedents and founded on accepted rules, forming an intelligible and traceable chain from premises to conclusion. comparing them with symbolic ground truths (for example, mathematical theorems or logical derivations), and cross-verifying against recognized rules \footnotetext[5]{\label{leereasoning}\leereasoning}$^5$. This explainability enhances user trust in the system and its usability \cite{kasif2024trilogy}.
 
 \section{Limitations of Conversational Debating Agents}
-While debating agents have been promising in a variety of applications, there exist several challenges that restrict their ability to engage in actual debates within the real world efficiently. The most important of these challenges are:
+While debating agents have been promising in a variety of applications, there exist several challenges that restrict them to engage in actual debates efficiently. The most important of these challenges are:
 \begin{itemize}
-    \item \textbf{Uncertainty and Big Data Management:} AI Debate Systems may need to handle vast amounts of data from multiple sources, often containing noisy or inconsistent information \cite{kasif2024trilogy}.
+    \item \textbf{Uncertainty and Big Data Management:} AI Debate Systems might work with large data from multiple sources, that may contain noisy or inconsistent information \cite{kasif2024trilogy}.
     
     \item \textbf{Knowledge Acquisition Bottleneck:} Symbolic AI programs typically require hand-coded rules and knowledge, leading to high human effort and cost in translating real-world problems into system inputs \cite{kasif2024trilogy}.
     
     \item \textbf{Real-time Dynamic Assessments:} AI debate systems face challenges in reacting dynamically to emerging arguments or rapidly changing contexts in real-time scenarios \cite{kasif2024trilogy}.
     
-    \item \textbf{Logical Inconsistencies:} Internal logical inconsistency is a major problem in designing secure AI systems, such as debate systems. The problem highlights the need to incorporate constrained logical verification methods—methods that prove AI reasoning against predetermined logical constraints or rules—or consistency inference tools as part of the AI system architecture \cite{ilkou2020symbolic}.
+    \item \textbf{Logical Inconsistencies:} Internal logical inconsistency is one of the major concerns in designing secure debate systems. The problem highlights the need to incorporate constrained logical verification methods, that prove AI reasoning against predetermined logical constraints or rules, or consistency inference tools as part of the AI system architecture \cite{ilkou2020symbolic}.
 \end{itemize}
 
+\newpage
 \section{Discussion}
-The development of conversational agents capable of conducting sophisticated debate is one of the major areas of AI research, involving not only language understanding and production but also the adherence to logic and principles of persuasion \cite{rakshit2019debbie}. This paper explored a number of approaches, highlighting the relative advantages and disadvantages of rule-based, retrieval-based, hybrid, hierarchical, and explainable agents (Table I). Hybrid and retrieval-based systems, although offering flexibility and access to large data sources \cite{kulatska2019arguebot}, it is challenging to ensure logical correctness and factual accuracy. Rule-based systems are predictable and ensure logical consistency for a small domain but are inflexible \cite{montealto2021rulebased}.
-Our work placed particular emphasis on the function of formal argumentation structures and symbolic reasoning. Techniques like Argument Graphs offer good visualization alternatives, enhancing users' comprehensibility of complex argument relations \cite{chalaguine2020persuasive}\cite{engelmann2022argumentation}. ASPIC enables the formal definition of logically valid arguments necessary to build convincing and verifiable chains of arguments \cite{engelmann2022argumentation}. Furthermore, Multi-Attribute Argumentation Frameworks facilitate advanced assessment of arguments against multiple attributes and can augment persuasive power by appealing to values in the audience [6]. Such systematic approaches address important ingredients of a "good debate," such as organization, logical consistency, and adequately supported reasoning \footnote{\label{debatingforeveryonejudge}\debatingforeveryonejudge}.
-The comparison analysis (Table II) also brings out the inherent trade-offs. For instance, formal structure-based methods (e.g., rule-based or augmented hybrid/explainable systems) can be very precise in usage and very explainable, and thus achieve user trust, but very poor in response time, scalability, or adapt-ability compared to pure retrieval-based systems \footnote{\label{smythosperformance}\smythosperformance}.
-Symbolic methods, in particular, are the foundation of explainability and logical soundness necessary for user trust and system verification. The capacity to trace out steps of reasoning, as represented by symbolic methods and explicit chains of justification, is to be compared with the typically black-box character of data models alone.
-However, there remain important weaknesses in AI debate agents. Dealing with uncertainty and large amounts of potentially noisy data is a major issue. Knowledge acquisition bottleneck, especially for symbol-based systems and rule-based programs hand-coded, remains costly and time-consuming. Additionally, real-time debate's dynamic nature demands agents with the capacity to judge and respond in real time, which is inappropriate for many modern architectures \cite{kasif2024trilogy}. Internal logical consistency is required for system integrity and to avoid irrelevant argumentation in the integration of heterogeneous information or reasoning protocols \cite{ilkou2020symbolic}. Eliminating these weaknesses is essential to future research on strong and effective AI debaters.
+The development of conversational agents capable of conducting sophisticated debate is one of the major areas of AI research, involving not only language understanding but also logic consistency and persuasion \cite{rakshit2019debbie}. This paper explored a number of approaches, highlighting the relative advantages and disadvantages of rule-based, retrieval-based, hybrid, hierarchical, and explainable agents (Table \ref{tab:agents}). Hybrid and retrieval-based systems, although offering flexibility and access to large data sources \cite{kulatska2019arguebot}, it is challenging to ensure logical correctness and factual accuracy. Rule-based systems are predictable and ensure logical consistency but only for a restrictive domain \cite{montealto2021rulebased}.
+Our work placed particular emphasis on the function of formal argumentation structures and symbolic reasoning. Techniques like Argument Graphs offer good visualization alternatives, enhancing users' comprehensibility of complex argument relations \cite{chalaguine2020persuasive},\cite{engelmann2022argumentation}. ASPIC enables the formal definition of logically valid arguments necessary to build convincing and verifiable chains of arguments \cite{engelmann2022argumentation}. Furthermore, Multi-Attribute Argumentation Frameworks facilitate advanced assessment of arguments against multiple attributes and can augment persuasive power by appealing to values in the audience [6]. Such systematic approaches address important ingredients of a ``good debate'', such as organization, logical consistency, and adequately supported reasoning 
+\footnotetext[6]{\label{debatingforeveryonejudge}\debatingforeveryonejudge}$^6$.
+The comparison analysis (Table \ref{tab:ai_models}) also brings out the inherent trade-offs. For instance, formal structure-based methods (e.g., rule-based or augmented hybrid/explainable systems) can be very precise in usage and very explainable, and thus achieve user trust, but very poor in response time, scalability, or adapt-ability compared to pure retrieval-based systems $^4$. %smythosperformance
+Symbolic methods, in particular, are the foundation of explainability and logical soundness necessary for user trust and system verification. The ability to outline the steps of reasoning, as represented by symbolic methods and explicit chains of justification, is to be compared with the typically black-box character of data models alone.
+However, there remain important weaknesses in AI debate agents. Dealing with noisy data is a major issue. Knowledge acquisition bottleneck, especially for symbol-based systems and rule-based programs hand-coded, remains costly and time-consuming. Furthermore, in order to make agents dynamic and respond in real time, this is inappropriate for many modern architectures \cite{kasif2024trilogy}. Internal logical consistency is required for system integrity and to avoid integrating logically inconsistent argumentation with heterogeneous information or reasoning protocols \cite{ilkou2020symbolic}. Eliminating these weaknesses is essential to future research on strong and effective AI debaters.
 
+\newpage
 \section{Conclusion}
-This paper examines the skills required for conversational agents to engage in a good debate, pointing to the potential of structured theories of argumentation and symbolic reasoning. This paper examines the foundational concepts defining a good debate \cite{rakshit2019debbie} \cite{tan2016winning}  and outlined the key computational approaches, including Argument Graphs \cite{chalaguine2020persuasive}, the ASPIC framework, and Multi-Attribute Argumentation Frameworks \cite{engelmann2022argumentation}. These approaches are of significant advantages in promoting logical consistency, presenting arguments in an orderly fashion, enabling explainability, and enabling multi-faceted argument evaluation, thereby giving rise to more robust and persuasive AI debaters.
-Comparative analysis highlighted the trade-offs between different agent architectures, emphasizing the strengths of symbolic approaches in ensuring logical validity and transparency. However, there remain significant challenges, in particular regarding data management, knowledge acquisition, real-time responsiveness, and logical consistency maintenance \cite{ilkou2020symbolic}.\cite{kasif2024trilogy}
+This paper examines the skills required for conversational agents to engage in a good debate, pointing to the potential of structured theories of argumentation and symbolic reasoning. This paper examines the foundational concepts defining a good debate \cite{rakshit2019debbie},\cite{tan2016winning}  and outlined the key computational approaches, including Argument Graphs \cite{chalaguine2020persuasive}, the ASPIC framework, and Multi-Attribute Argumentation Frameworks \cite{engelmann2022argumentation}. 
+Techniques that are discussed in this paper are important for explainability and logical consistency. They also provide a proper structure for the arguments that are used in the debates.
+In this paper, we have examined the limitations of the existing debating agents and how symbolic techniques can help overcome these techniques by using logical validity.  However, there are still some challenges, particularly in data management, knowledge acquisition, real-time responsiveness, and maintenance of logical consistency \cite{ilkou2020symbolic},\cite{kasif2024trilogy}.
 Lastly, the integration of the strengths of symbolic argumentation and structured reasoning can potentially produce AI agents that can not only participate in debates but do so in a manner that is logical, coherent, and consistent. Research in the future must tackle the limitations recognized, perhaps in new hybrid architectures compromising formal rigour with data-driven plasticity, in order to be in a position to maximize the strengths of AI for high-level argumentative discourse.
 
 
 \section*{Acknowledgment}
 We would like to thank John Puentes and Mihai Andries, Christophe Lohr for their invaluable supervision and guidance throughout this research.
 
+\newpage
 \printbibliography[notkeyword=web, title={References}]
 
     
 \end{document}
-
-
