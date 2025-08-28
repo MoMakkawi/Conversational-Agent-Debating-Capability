@@ -104,15 +104,16 @@ Judges evaluate debates based on:
 ## Comparative Analysis of Debate Agents
 
 ### Overview of Agent Types
-<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Overview%20of%20Conversational%20Agent%20Types%20for%20Debate%22%7D%7D" />
 
-| Agent Type      | Approach                     | Use Cases               | Strengths               | Weaknesses               |
-|-----------------|------------------------------|-------------------------|-------------------------|--------------------------|
-| Rule-Based      | Predefined logical templates | Compliance systems      | Predictable outcomes    | Rigid structure          |
-| Retrieval-Based | DB queries + RAG             | Customer support        | Dynamic data handling   | Retrieval dependency     |
-| Hybrid          | Rule-retrieval integration   | Legal argumentation     | Context-aware reasoning  | Complex setup            |
-| Hierarchical    | Feedback-driven adaptation   | Policy negotiation      | Personalized arguments  | Feedback latency         |
-| Explainable     | Justification chains         | Diagnostics, Legal      | Transparent explanations| Depth limitations        |
+<custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Comparison%20of%20Conversational%20Agent%20Types%20for%20Debate%22%7D%7D" />
+
+|  Attribute       | Rule-Based               | Retrieval-Based         | Hybrid                     | Hierarchical               | Explainable                |
+|------------------|--------------------------|-------------------------|----------------------------|-----------------------------|-----------------------------|
+| **Approach**     | Predefined logical templates | DB queries + RAG        | Rule-retrieval integration | Feedback-driven adaptation  | Justification chains        |
+| **Use Cases**    | Compliance systems        | Customer support        | Legal argumentation        | Policy negotiation         | Diagnostics, Legal          |
+| **Strengths**   | Predictable outcomes      | Dynamic data handling    | Context-aware reasoning     | Personalized arguments      | Transparent explanations    |
+| **Weaknesses**  | Rigid structure           | Retrieval dependency    | Complex setup              | Feedback latency            | Depth limitations          |
+
 
 ### Evaluation Metrics
 <custom-element data-json="%7B%22type%22%3A%22table-metadata%22%2C%22attributes%22%3A%7B%22title%22%3A%22Evaluation%20Metrics%20for%20Debate%20Agents%22%7D%7D" />
@@ -163,13 +164,13 @@ We thank John Puentes, Mihai Andries, and Christophe Lohr for their supervision 
 ---
 
 ## References
-1. Monte-Alto et al. (2021). *A rule-based argumentation framework for distributed contextual reasoning in dynamic environments.* DYNA.
-2. Kulatska (2019). *ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot.* University of Twente.
-3. Sakai et al. (2020). *Hierarchical argumentation structure for persuasive argumentative dialogue generation.* IEICE Transactions.
-4. Ali et al. (2022). *Constructing a dataset of support and attack relations in legal arguments.* LREC.
-5. Kasif (2024). *A Trilogy of AI Safety Frameworks.* arXiv.
-6. Rakshit et al. (2019). *Debbie, the debate bot of the future.* Springer.
-7. Tan et al. (2016). *Winning arguments: Interaction dynamics and persuasion strategies.* WWW.
-8. Engelmann et al. (2022). *Argumentation as a method for explainable AI.* IEEE CISTI.
-9. Chalaguine & Hunter (2020). *A persuasive chatbot using a crowdsourced argument graph.* IOS Press.
-10. Ilkou & Koutraki (2020). *Symbolic vs Sub-symbolic AI Methods.* CIKM Workshops.
+1- Monte-Alto, H. H. L. C., Possebom, A. T., Morveli-Espinoza, M. M. M., & Tacla, C. A. (2021). A rule-based argumentation framework for distributed contextual reasoning in dynamic environments. *DYNA, 88*(217), 120–130. [DOI:10.15446/dyna.v88n217.90858](https://doi.org/10.15446/dyna.v88n217.90858)].
+2- Kulatska, I. (2019). *ArgueBot: Enabling debates through a hybrid retrieval-generation-based chatbot* [Master's thesis, University of Twente].
+3- Sakai, K., Higashinaka, R., Yoshikawa, Y., Ishiguro, H., & Tomita, J. (2020). Hierarchical argumentation structure for persuasive argumentative dialogue generation. *IEICE Transactions on Information and Systems, 103*(2), 424–434.
+4- Ali, B., Pawar, S., Palshikar, G. K., & Singh, R. (2022). Constructing a dataset of support and attack relations in legal arguments in court judgements using linguistic rules. In *Proceedings of the 13th Conference on Language Resources and Evaluation (LREC 2022)* (pp. 491–500). European Language Resources Association (ELRA). Retrieved from [https://www.elra.info](https://www.elra.info).
+5- Kasif, S. (2024). A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge. *arXiv preprint arXiv:2410.06946*. Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University. [https://arxiv.org/abs/2410.06946](https://arxiv.org/abs/2410.06946).
+6- Rakshit, G., Bowden, K. K., Reed, L., Misra, A., & Walker, M. (2019). Debbie, the debate bot of the future. In *Advanced Social Interaction with Agents: 8th International Workshop on Spoken Dialog Systems* (pp. 45–52). Springer.
+7- Tan, C., Niculae, V., Danescu-Niculescu-Mizil, C., & Lee, L. (2016). Winning arguments: Interaction dynamics and persuasion strategies in good-faith online discussions. In *Proceedings of the 25th International Conference on World Wide Web* (pp. 613–624).
+8- Engelmann, D., Damasio, J., Panisson, A. R., Mascardi, V., & Bordini, R. H. (2022). Argumentation as a method for explainable AI: A systematic literature review. In *17th IEEE Iberian Conference on Information Systems and Technologies (CISTI)* (pp. 1–6). IEEE.
+9- Chalaguine, L. A., & Hunter, A. (2020). A persuasive chatbot using a crowdsourced argument graph and concerns. In *Computational Models of Argument* (pp. 9–20). IOS Press.
+10- Ilkou, E., & Koutraki, M. (2020). Symbolic vs Sub-symbolic AI Methods: Friends or Enemies? In *Proceedings of the CIKM 2020 Workshops*. CEUR Workshop Proceedings. [http://ceur-ws.org](http://ceur-ws.org).
