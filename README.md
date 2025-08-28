@@ -1,4 +1,4 @@
-## Debating Capability for a Conversational Agent
+# Debating Capability for a Conversational Agent Overview: 
 
 ### Students
 Mohamad Faraj Makkawi, Hassan Khan
@@ -24,7 +24,8 @@ We require a comprehensive review of the state-of-the-art in conversational agen
 - **What debating techniques exist, and how can they be employed in a conversational agent?**
 - **What are the existing types of conversational agents capable of debating a subject?**
 
-## Debating Capability for a Conversational Agent Paper Content: 
+
+# Debating Capability for a Conversational Agent Paper Content: 
 
 ## Abstract
 This article explores the evolving capabilities of conversational agents to engage in sophisticated debates using structured argumentation and symbolic reasoning. We review computational approaches such as **Argument Graphs**, **ASPIC+**, and **Multi-Attribute Argumentation Frameworks**, evaluating their impact on logical consistency, comprehensibility, and rhetorical power in AI debates. By comparing debating architectures—rule-based, retrieval-based, hybrid, hierarchical, and explainable—we highlight their benefits and trade-offs. Symbolic approaches are emphasized for their user trust and verifiability. Despite progress, challenges like uncertainty management, knowledge acquisition bottlenecks, and real-time adaptability persist. This work underscores the need to balance formal rigor with adaptive methods to unlock the full potential of AI debaters.
