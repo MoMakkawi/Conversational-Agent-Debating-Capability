@@ -149,4 +149,4 @@ Structured methods for constructing, analyzing, and evaluating arguments to reac
 4. Kasif, S. **"A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge."** *arXiv preprint arXiv:2410.06946 (2024).* Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University. URL: [https://arxiv.org/abs/2410.06946](https://arxiv.org/abs/2410.06946).
 
 ---
-**Note:** For further details, refer to the [full paper](https://github.com/MoMakkawi/Conversational-Agent-Debating-Capability/blob/main/Bibliographical%20Project/Conversational%20Agent%20Debating%20Capability.pdf).
+**Note:** For further details, refer to the [full paper](https://hal.science/hal-05237874).
