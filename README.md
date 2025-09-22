@@ -4,6 +4,8 @@
 
 **Supervisors:** Mihai Andries, Christophe Lohr
 
+**Note:** For further details, refer to the [full paper](https://hal.science/hal-05237874).
+
 ---
 
 ## Table of Contents
@@ -147,6 +149,3 @@ Structured methods for constructing, analyzing, and evaluating arguments to reac
 2. Tan, C., et al. **"Winning arguments: Interaction dynamics and persuasion strategies in good faith online discussions."** *Proceedings of the 25th International Conference on World Wide Web.* 2016, pp. 613–624.
 3. Engelmann, D., et al. **"Argumentation as a method for explainable AI: A systematic literature review."** *17th IEEE Iberian Conference on Information Systems and Technologies (CISTI).* IEEE, 2022, pp. 1–6.
 4. Kasif, S. **"A Trilogy of AI Safety Frameworks: Paths from Facts and Knowledge Gaps to Reliable Predictions and New Knowledge."** *arXiv preprint arXiv:2410.06946 (2024).* Department of Biomedical Engineering, Program in Bioinformatics, Department of Computer Science, Boston University. URL: [https://arxiv.org/abs/2410.06946](https://arxiv.org/abs/2410.06946).
-
----
-**Note:** For further details, refer to the [full paper](https://hal.science/hal-05237874).
